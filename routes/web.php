@@ -27,6 +27,10 @@ Route::get('/mia', function () {
     return view('layouts.mia');
 });
 
+Route::get('/auscultation', function () {
+    return view('layouts.auscultation');
+});
+
 Route::get('/lapvision', function () {
     return view('layouts.lapvision');
 });

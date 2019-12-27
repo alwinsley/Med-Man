@@ -60,6 +60,18 @@
                                             </p>
                                         </a>
                                     </li>
+
+                                    <li>
+                                            <a class="nav-item" href="auscultation">
+                                                <img class="image-holder" src="{{asset ('./img/models/model8-menu.png') }}" alt="auscultation">
+                                                <h3>AUSCULTATION</h3>
+                                                <p class="price">Auscultation
+                                                    <br /><small>Auscultation simulator</small></p>
+                                                <p class="tech">
+                                                    View MIA
+                                                </p>
+                                            </a>
+                                        </li>
                                 </ul>
                             </li>
 
