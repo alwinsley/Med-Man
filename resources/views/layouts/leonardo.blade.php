@@ -77,7 +77,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center section-title-wrapper">
                         <h3 class="section-title">Features</h3>
-                        <p>Check catelog to view full Feature list</p>
+                        <p><a href="#">Check catalog</a> to view full Feature list</p>
                     </div>
                 </div> 
                 <div class="row">
