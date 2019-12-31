@@ -6,15 +6,14 @@
         
         <!-- model-area -->
         <div class="page-title-wrapper">
-            <div class="section-bg" style="background-image: url({{url('./img/slider/sliderJunior.jpg')}});"></div>
+            <div class="section-bg" style="background-image: url({{url('./img/slider/sliderAus.jpg')}});"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="page-title-inner">
                             <div class="page-title-content">
-                                <h1>JUNIOR</h1>
-                                <p>Bringing pediatric patient care
-                                        to a whole new level</p>
+                                <h1>AUSCULTATION</h1>
+                                <p>Ausculation simulator</p>
 
                               
 
@@ -38,14 +37,14 @@
                             
 
                                 {{-- <h2 class="section-title">Leonardo (HF).</h2> --}}
-                                <p><strong>Arthur. Essential is a 5-8 year old pediatric patient simulator developed and produced by Medvision, created, to bring pediatric patient care to a whole new level. We took the best from our LEONARDO simulator and carefully carried it to Arthur, resulting in Arthur’s conformity to all pediatric care requirements and standards.</strong></p>
+                                <p><strong>Our auscultation simulator is a highly effective tool for learning auscultation points and sounds. A rich library of sounds with amplified details for trainees to know what they're looking for when listening to heart, bowel or lung sounds..</strong></p>
                                 <p>
                                   <ul class="text-white">
-                                  <li>Interactive eyes & Realistic airways</li>
-                                  <li>Real medical ventilator compatibility</li>
-                                      <li> Real devices for ECG and pulse monitoring, defibrillation, noninvasive BP monitoring</li>
-                                      <li> Cricothyrotomy, needle decompression of tension pneumothorax</li>
-                                       <li>CPR with elaborate performance assessment</li>
+                                  <li>All the auscultation points light up</li>
+                                  <li>Sound can be transmitted to an external speaker</li>
+                                      <li> Anterior and posterior auscultation points</li>
+                                      <li>Rotateable platform</li>
+                                       <li>Compatible with real stethoscopes</li>
                                        
                                   </ul>
                                   </p>
@@ -57,7 +56,7 @@
                         <div class="features-entry margin-bottom-0 wow fadeInRight">
                             <div class="image-holder margin-bottom-0">
 
-                                <img width="800" height="500" src="{{asset ('./img/post/post5.jpg')}}" alt="">
+                                <img width="800" height="500" src="{{asset ('./img/post/post7.jpg')}}" alt="">
                                
                                 <span class="project-overlay"></span>
                              
@@ -94,7 +93,7 @@
                                 <div role="tabpanel" class="tab-pane active" id="feature">
                                     <div class="car-interest">
                                         <div class="car-interest-wrapper">
-                                            <img src="{{asset ('./img/models/exteriorJunior.png')}}" alt="Model 1">
+                                            <img src="{{asset ('./img/models/exteriorAus.png')}}" alt="Model 1">
                                             <ul>
                                                 <li class="interest-point" style="bottom: 20%;left: 72%;">
                                                     <a class="car-img-replace" href="#0">More</a>
