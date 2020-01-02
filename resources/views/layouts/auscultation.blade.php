@@ -95,49 +95,37 @@
                                         <div class="car-interest-wrapper">
                                             <img src="{{asset ('./img/models/exteriorAus.png')}}" alt="Model 1">
                                             <ul>
-                                                <li class="interest-point" style="bottom: 20%;left: 72%;">
+                                                <li class="interest-point" style="bottom: 50%;left: 52%;">
                                                     <a class="car-img-replace" href="#0">More</a>
                                                     <div class="car-more-info car-top">
-                                                        <img class="car-more-image" src="{{asset ('./img/box/boxJunior.jpg')}}" alt=""/>
-                                                        <h3>Basic physical examination</h3>
+                                                        <img class="car-more-image" src="{{asset ('./img/box/boxAus.jpg')}}" alt=""/>
+                                                        <h3>Real stethoscope</h3>
                                                         <p>
                                                            <ul>
-                                                             <li>- Pulse palpation</li>
-                                                             <li>- SpO2 monitoring</li>
-                                                             <li>- Independent pupillary light reflex</li>
+                                                             <li>- 5 cardiac auscultation points</li>
+                                                             <li>- 5 anterior lung auscultation points</li>
+                                                            
                                                            </ul>
                                                         </p>
                                                         <a href="#0" class="interest-close-info car-img-replace">Close</a>
                                                     </div>
                                                 </li> 
 
-                                                <li class="interest-point" style="top: 52%; left: 28%;">
+                                                <li class="interest-point" style="top: 82%; left: 18%;">
                                                     <a class="car-img-replace" href="#0">More</a>
                                                     <div class="car-more-info car-right">
-                                                        <img class="car-more-image" src="{{asset ('./img/box/boxJunior2.jpg')}}" alt=""/>
-                                                        <h3>Orotracheal intubation</h3>
+                                                        <img class="car-more-image" src="{{asset ('./img/box/boxAus2.jpg')}}" alt=""/>
+                                                        <h3>Real stethoscope</h3>
                                                         <ul>
-                                                            <li>- Anatomically accurate landmarks</li>
-                                                            <li>- Intubation procedure</li>
-                                                            <li>- Use real instruments</li>
+                                                            <li>- 6 posterior lung auscultation points</li>
+                                                            <li>- 4 abdomen auscultation points</li>
+                                                           
                                                           </ul>
                                                         <a href="#0" class="interest-close-info car-img-replace">Close</a>
                                                     </div>
                                                 </li> 
 
-                                                <li class="interest-point" style="top: 58%;right: 41%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
-                                                    <div class="car-more-info car-left">
-                                                        <img class="car-more-image" src="{{asset ('./img/box/boxJunior3.jpg')}}" alt=""/>
-                                                        <h3>Injections</h3>
-                                                        <ul>
-                                                            <li>- Intravenous injections</li>
-                                                            <li>-Intraosseous injections</li>
-                                                            <li>- Automatic drug, injected volume and speed recognition</li>
-                                                          </ul>
-                                                        <a href="#0" class="interest-close-info car-img-replace">Close</a>
-                                                    </div>
-                                                </li> 
+                                            
                                             </ul>
                                         </div> 
                                     </div> 
@@ -233,20 +221,19 @@
                         <div class="row gallery">
                             <div class="col-md-3">
                                 <h3 class="section-title font-size-28">Innovations for life</h3>
-                                <p>Junior will assess all of your actions during resuscitation and then provide detailed feedback.
-                                        Powerful and intuitive, a perfect symbiosis of hardware and software: access our ever-expanding library of clinical cases or create your own.</p>
+                                <p>Easy, intuitive, elaborate are the main principles here. Rich library of sounds, conforming to American Thoracic Society guidelines. Activate or deactivate auscultation points and backlighting individually, adjust volume and intensity of sounds and many other features.</p>
                             </div>
                             <div class="col-md-3 wow fadeIn" data-wow-delay=".3s">
                                 <div class="image-holder">
                                    
-                                        <img src="{{asset ('./img/gallery/gallery-interiorJunior.jpg')}}" alt="">
+                                        <img src="{{asset ('./img/gallery/gallery-interiorAus.jpg')}}" alt="">
 
                                 </div>
                             </div>
                             <div class="col-md-3 wow fadeIn" data-wow-delay=".6s">
                                 <div class="image-holder">
                                    
-                                        <img src="{{asset ('./img/gallery/gallery-interiorJunior2.jpg')}}" alt="">
+                                        <img src="{{asset ('./img/gallery/gallery-interiorAus2.jpg')}}" alt="">
                                      
                                    
                                 </div>
@@ -255,7 +242,7 @@
 
                                 <div class="image-holder">
                                    
-                                        <img src="{{asset ('./img/gallery/gallery-interiorJunior3.jpg')}}" alt="">
+                                        <img src="{{asset ('./img/gallery/gallery-interiorAus3.jpg')}}" alt="">
                                        
                                    
                                 </div>
@@ -269,7 +256,7 @@
 
                 <div class="car-interest">
                     <div class="car-interest-wrapper">
-                        <div class="interior-bg" style="background-image: url('{{asset ('./img/gallery/interior-coverJunior.jpg')}}');"></div>
+                        <div class="interior-bg" style="background-image: url('{{asset ('./img/gallery/interior-coverAus.jpg')}}');"></div>
                         <img src="{{asset ('./img/gallery/interior-spacing.png')}}" alt="Interior">
                        
                     </div>
@@ -280,7 +267,7 @@
         </section>
         <div class="section-space"></div>
         <section class="page-title-wrapper">
-            <div class="section-bg" style="background-image: url({{url('./img/slider/sliderJunior.jpg')}}); background-position: 10% 71px;">
+            <div class="section-bg" style="background-image: url({{url('./img/slider/sliderAus.jpg')}}); background-position: 10% 71px;">
             </div>
             <div class="container">
                 <div class="row">

@@ -50,3 +50,8 @@ Route::get('/endovision', function () {
 Route::get('/products', function () {
     return view('layouts.products');
 });
+
+
+Route::get('/manuals', function () {
+    return view('layouts.manuals');
+});

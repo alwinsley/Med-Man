@@ -3985,6 +3985,7 @@ support for no js
 
 /* Content Area
 -------------------------------------------------------------- */
+.content-center {justify-content: center;}
 .content-area { padding: 0 15px; }
 .content-area > h2 {
   font-size: 33px;

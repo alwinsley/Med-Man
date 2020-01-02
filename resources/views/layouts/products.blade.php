@@ -131,7 +131,7 @@
             <div class="row car-row-class">
             <div class="col-lg-4 col-md-12">
                 <div class="car">
-                  <a href="endoVision"><img src="{{asset ('./img/slider/sliderEndo.jpg')}}" alt=""></a>
+                  <a href="endovision"><img src="{{asset ('./img/slider/sliderEndo.jpg')}}" alt=""></a>
                   <div class="car-description">
 
                     <h5 class="car-name"><a href="endoVision">EndoVision</a></h5>
@@ -148,7 +148,7 @@
 
             <div class="col-lg-4 col-md-12">
                 <div class="car">
-                  <a href="auscultation-adult"><img src="{{asset ('./img/slider/sliderAus1.jpg')}}" alt=""></a>
+                  <a href="auscultation"><img src="{{asset ('./img/slider/sliderAus1.jpg')}}" alt=""></a>
                   <div class="car-description">
 
                     <h5 class="car-name"><a href="auscultation-adult">Auscultation</a></h5>
@@ -165,7 +165,7 @@
 
             <div class="col-lg-4 col-md-12">
                 <div class="car">
-                  <a href="auscultation-child"><img src="{{asset ('./img/slider/sliderAus2.jpg')}}" alt=""></a>
+                  <a href="auscultation"><img src="{{asset ('./img/slider/sliderAus2.jpg')}}" alt=""></a>
                   <div class="car-description">
 
                     <h5 class="car-name"><a href="auscultation-child">Auscultation</a></h5>
