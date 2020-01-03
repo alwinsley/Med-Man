@@ -136,7 +136,7 @@
                            
                             <li><a href="manuals">Manuals</a></li>
                             {{-- <li><a href="pages-about.html">Events</a></li> --}}
-                            <li><a href="pages-about.html">Contact Us</a></li>
+                            <li><a href="contact">Contact Us</a></li>
                         </ul>
                     </nav>
                     <div id="search" class="search">

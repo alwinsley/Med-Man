@@ -18,7 +18,7 @@
 
         <div class="image-holder active">
             <a href="manuals">
-                <img src="{{asset ('./img/gallery/gallery-interior1Home.jpg')}}" alt="">
+                <img src="{{asset ('./img/gallery/gallery-interiorEndo2.jpg')}}" alt="">
                 <div class="car-overlay">
                     <span class="link-holder">
                         <h3 class="text-white">BronchoVision manual</h3>
@@ -33,7 +33,7 @@
 
         <div class="image-holder active">
             <a href="manuals">
-                <img src="{{asset ('./img/gallery/gallery-interior1Home.jpg')}}" alt="">
+                <img src="{{asset ('./img/gallery/gallery-interiorEndo3.jpg')}}" alt="">
                 <div class="car-overlay">
                     <span class="link-holder">
                         <h3 class="text-white"> EndoVision manual</h3>
@@ -49,7 +49,7 @@
 
         <div class="image-holder active">
             <a href="manuals">
-                <img src="{{asset ('./img/gallery/gallery-interior1Home.jpg')}}" alt="">
+                <img src="{{asset ('./img/gallery/gallery-interiorLap.jpg')}}" alt="">
                 <div class="car-overlay">
                     <span class="link-holder">
                         <h3 class="text-white"> LapVision manual</h3>
@@ -68,7 +68,7 @@
 
         <div class="image-holder active">
             <a href="manuals">
-                <img src="{{asset ('./img/gallery/gallery-interior1Home.jpg')}}" alt="">
+                <img src="{{asset ('./img/gallery/gallery-interiorAngio3.jpg')}}" alt="">
                 <div class="car-overlay">
                     <span class="link-holder">
                         <h3 class="text-white">AngioVision manual</h3>
@@ -83,7 +83,7 @@
 
         <div class="image-holder active">
             <a href="manuals">
-                <img src="{{asset ('./img/gallery/gallery-interior1Home.jpg')}}" alt="">
+                <img src="{{asset ('./img/gallery/gallery-interiorHyst3.jpg')}}" alt="">
                 <div class="car-overlay">
                     <span class="link-holder">
                         <h3 class="text-white">HystVision manual</h3>
@@ -99,7 +99,7 @@
 
         <div class="image-holder active">
             <a href="manuals">
-                <img src="{{asset ('./img/gallery/gallery-interior1Home.jpg')}}" alt="">
+                <img src="{{asset ('./img/gallery/gallery-interior1.jpg')}}" alt="">
                 <div class="car-overlay">
                     <span class="link-holder">
                         <h3 class="text-white">Leonardo.HF manual</h3>

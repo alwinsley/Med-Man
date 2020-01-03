@@ -55,3 +55,7 @@ Route::get('/products', function () {
 Route::get('/manuals', function () {
     return view('layouts.manuals');
 });
+
+Route::get('/contact', function () {
+    return view('layouts.contact');
+});

@@ -9,19 +9,19 @@
 
 @font-face {
   font-family: "proxima-nova";
-  src: url(fonts/ProximaNova-Reg.ttf);
+  src: url(fonts/ProximaNova-Reg.ttf) !important;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "proxima-nova-light";
-  src: url(fonts/ProximaNova-Light.otf);
+  src: url(fonts/ProximaNova-Light.otf) !important;
   font-weight: 100;
 }
 
 /* Reset Browsers
 -------------------------------------------------------------- */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html{font-size:62.5%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}body{background:#fff;line-height:1;}article,aside,details,figcaption,figure,footer,header,main,nav,section{display:block}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0;}caption,th,td{font-weight:normal;text-align:left;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}blockquote,q{quotes:none}a:focus{outline:none}a:hover,a:active{outline:0}a img{border:0}img{max-width:100%;height:auto;}select{max-width:100%}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline;font-family:"proxima-nova", sans-serif;font-size:100%;font-style:inherit;font-weight:inherit;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html{font-size:62.5%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}body{background:#fff;line-height:1;}article,aside,details,figcaption,figure,footer,header,main,nav,section{display:block}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0;}caption,th,td{font-weight:normal;text-align:left;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}blockquote,q{quotes:none}a:focus{outline:none}a:hover,a:active{outline:0}a img{border:0}img{max-width:100%;height:auto;}select{max-width:100%}
 
 /* General
 -------------------------------------------------------------- */
@@ -29,7 +29,7 @@ body,
 button,
 input,
 select,
-textarea { font-family: "proxima-nova", sans-serif; font-weight: 400; color: #3f485d; font-size: 14px; line-height: 2; background-color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; overflow-x: hidden; overflow-y: auto; }
+textarea { font-family: "proxima-nova", sans-serif !important;font-weight: 400; color: #3f485d; font-size: 14px; line-height: 2; background-color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; overflow-x: hidden; overflow-y: auto; }
 body { background-color: #f1f3f7; }
 img { height: auto; max-width: 100%; vertical-align: middle; -ms-interpolation-mode: bicubic }
 p { margin: 0 0 20px; line-height: 1.7; }
@@ -216,7 +216,7 @@ h2,
 h3,
 h4,
 h5,
-h6 { font-family: 'proxima-nova-light', sans-serif; color: #06163a; font-weight: 500; line-height: 1.5; margin: 0 0 30px; text-rendering: optimizeLegibility; }
+h6 { font-family: 'proxima-nova-light', sans-serif !important; color: #06163a; font-weight: 500; line-height: 1.5; margin: 0 0 30px; text-rendering: optimizeLegibility; }
 
 h1 { font-size: 2.428em; } /* 34px */
 h2 { font-size: 2.142em; } /* 30px */
