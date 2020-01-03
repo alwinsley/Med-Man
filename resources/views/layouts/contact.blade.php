@@ -16,7 +16,8 @@
 
 @include('partials.contactForm')
 
-<div class="row">
+<div class="container">
+    <div class="row">
 <div class="col-md-3">
    <h3> Global </h3>
     <h4>Japan</h4>
@@ -59,5 +60,6 @@
         Sales inquiries/Customer service<br/>
          mail@oooeidos.ru
       </div>
+    </div>
 </div>
 @endsection

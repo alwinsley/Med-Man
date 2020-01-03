@@ -63,10 +63,10 @@
                           <form action="dealers.html" method="get">
                               <div class="input-group">
                                   <input type="text" placeholder="Enter your city">
-                                  <span class="input-group-btn">
+                                  {{-- <span class="input-group-btn">
                                       <button class="button" onclick="window.location.href='dealers.html'"><i
                                               class="fa fa-angle-right"></i></button>
-                                  </span>
+                                  </span> --}}
                               </div>
                           </form>
 

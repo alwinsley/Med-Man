@@ -1,7 +1,7 @@
 
 <header id="header" class="main-header fullwidth">
                 <div class="container">
-                    <a class="main-logo" href="index.php"><img src="{{ asset('./img/medVisionlogo.png') }}"
+                    <a class="main-logo" href="/"><img src="{{ asset('./img/medVisionlogo.png') }}"
                             data-sticky-logo="{{ asset ('./img/medVisionlogo.png') }}"
                             data-transparent-logo="{{ asset ('./img/medVisionlogo_wht.png') }}" alt=""></a>
                     <ul class="header-buttons">
@@ -14,7 +14,7 @@
                                 <li><a href="#">Sign Out</a></li>
                             </ul>
                         </li>
-                        <li><a class="search-trigger">Search<span></span></a></li>
+                        {{-- <li><a class="search-trigger">Search<span></span></a></li> --}}
                         <li><a class="nav-trigger">Menu<span></span></a></li>
                     </ul>
                     <nav class="nav">
@@ -139,11 +139,11 @@
                             <li><a href="contact">Contact Us</a></li>
                         </ul>
                     </nav>
-                    <div id="search" class="search">
+                    {{-- <div id="search" class="search">
                         <form>
                             <input type="search" placeholder="Search keywords">
                         </form>
-                    </div>
+                    </div> --}}
 
                 </div>
             </header>

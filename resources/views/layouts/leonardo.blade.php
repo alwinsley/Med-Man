@@ -15,8 +15,6 @@
                                 <h1>LEONARDO</h1>
                                 <p>Your high fidelity tool for high fidelity training</p>
 
-                              
-
                                 <a href="#" id="model-feature" data-toggle="modal" data-target="#exampleModal" class="button button-sliding-icon font-size-20">Request A Quote <i class="fa fa-angle-right"></i></a> 
 
                             </div>
@@ -290,7 +288,7 @@
                                 <h1>Request A Quote</h1>
                                 <p>MedVision offers turnkey projects for simulation training organizations</p>
         
-                                <a href="quote" id="model-feature" class="margin-bottom-50 button button-sliding-icon" style="width: 166px;">Get Quote <i class="fa fa-angle-right"></i></a>
+                                < <a href="#" id="model-feature" data-toggle="modal" data-target="#exampleModal" class="button button-sliding-icon font-size-20">Request A Quote <i class="fa fa-angle-right"></i></a> 
                                 <br>
         
                                 <a href="#" class="big text-white"> <i class="fa fa-2x fa-download"></i>
@@ -1149,11 +1147,53 @@
               </button>
             </div>
             <div class="modal-body">
-              ...
+              <form method="post" name="contactform" id="contactform" autocomplete="on">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <input class="with-border" name="name" type="text" id="name" placeholder="Your Name"
+                            required="required">
+                    </div>
+
+                    <div class="col-md-6">
+                        <input class="with-border" name="email" type="email" id="email"
+                            placeholder="Email Address"
+                            pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$"
+                            required="required">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <input class="with-border" name="subject" type="text" id="subject"
+                            placeholder="Phone number" required="required">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <textarea class="with-border" name="comments" cols="20" rows="3" id="comments"
+                            placeholder="Comments" spellcheck="true" required="required"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-6">
+                                <img width="800" height="500" src="{{asset ('./img/post/post6.jpg')}}" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Leonardo</h4>
+                            <p>Human Patient Simulator</p>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="submit" class="submit button margin-top-15" id="submit"
+                            value="Submit Request">
+                    </div>
+                </div>
+
+            </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
             </div>
           </div>
         </div>

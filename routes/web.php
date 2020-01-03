@@ -59,3 +59,7 @@ Route::get('/manuals', function () {
 Route::get('/contact', function () {
     return view('layouts.contact');
 });
+
+Route::get('/about', function () {
+    return view('layouts.about');
+});
