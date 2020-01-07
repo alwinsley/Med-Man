@@ -41,12 +41,12 @@
                                     <li>
                                         <a class="nav-item" href="junior">
                                             <img class="image-holder" src="{{asset ('./img/models/model2-menu.png') }}"
-                                                alt="JUNIOR">
-                                            <h3>JUNIOR</h3>
+                                                alt="AUTHOR">
+                                            <h3>ARTHUR</h3>
                                             <p class="price">Pediatric<br /><small>Simulator of a 5 - 8 yr old</small>
                                             </p>
                                             <p class="tech">
-                                                View JUNIOR
+                                                View ARTHUR
                                             </p>
                                         </a>
                                     </li>
@@ -54,7 +54,7 @@
                                         <a class="nav-item" href="mia">
                                             <img class="image-holder" src="{{asset ('./img/models/model3-menu.png') }}" alt="MIA">
                                             <h3>MIA</h3>
-                                            <p class="price">Baby<br /><small>Simulator of small infant </small></p>
+                                            <p class="price">New Born<br /><small>Simulator of small infant </small></p>
                                             <p class="tech">
                                                 View MIA
                                             </p>

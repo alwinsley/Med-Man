@@ -2,8 +2,8 @@
 
 @section('content')
 
-<section class="banner-section">
-    <div class="section-bg" style="background-image: url(&quot;assets/img/parallax.jpg&quot;); background-position: 50% 8px;"></div>
+{{-- <section class="banner-section">
+    <div class="section-bg" style="background-image: url({{asset ('./img/gallery/gallery-interior1Home.jpg')}}); background-position: 50% 8px;"></div>
     <div class="container">
         <div class="row">
             <div class="page-banner-content col">
@@ -12,8 +12,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
+<div class="section-space dark-section"></div>
 <div class="section-space"></div>
 <div class="container">
 <div class="row">

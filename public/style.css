@@ -26,6 +26,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* General
 -------------------------------------------------------------- */
+.modal-dialog {
+  margin: 4rem auto;
+}
+
 body,
 button,
 input,
@@ -417,6 +421,8 @@ h6 a { color: inherit }
 .border-radius-10 { border-radius: 10px !important; }
 .border-radius-20 { border-radius: 20px !important; }
 .border-radius-30 { border-radius: 30px !important; }
+
+.border-white {border: 1px solid #fff; padding: 10px 20px; border-radius: 4px;}
 
 .no-padding { padding: 0 !important; }
 .no-margin { margin: 0 !important; }
@@ -1781,9 +1787,15 @@ body .alert strong { border: none; }
 }
 
 .dark-section p, .dark-section label, .primary-section p, .primary-section label {
-  color: rgba(255, 255, 255, 0.6);
+  color:white;
   font-weight: 400;
+  font-size: 120%;
 }
+
+.dark-section ul {
+  font-size: 120%;
+}
+
 .dark-section .form-block label, .primary-section .form-block label { color: #fff; }
 
 .section-title-wrapper {
@@ -3195,7 +3207,7 @@ support for no js
 }
 
 .page-title-wrapper .page-title-inner .page-title-content h1 {
-  font-size: 3em; 
+  font-size: 3.5em; 
   color: #fff;
   line-height: 30px;
   font-weight: 500;    
@@ -3206,14 +3218,14 @@ support for no js
 .page-title-wrapper .page-title-inner .page-title-content h1:before {
     content: ""; 
     margin-right: 10px;
-    display: inline-block;
+    display: none;
     width: 6px;
     height: 28px;
     background-color: #07254d;
 }
 
 .page-title-wrapper .page-title-inner .page-title-content p {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.1;
     padding-top: 0;
     margin: 0 0 15px 0;
@@ -5150,7 +5162,7 @@ support for no js
     transition-delay: 0.5s;
   }
   .main-header.fullwidth .primary-nav .secondary-nav, .main-header.fullwidth .primary-nav .nav-gallery { width: 100vw; width: calc( 100vw - 17px ); padding: 65px 80px 60px; }
-  .main-header.fullwidth .primary-nav .nav-gallery { height: 480px;display:flex;justify-content: center; }
+  .main-header.fullwidth .primary-nav .nav-gallery { height: 490px;display:flex;justify-content: center; }
   .primary-nav .secondary-nav::after, .primary-nav .nav-gallery::after, .primary-nav  .dropdown-nav::after {
     clear: both;
     content: "";

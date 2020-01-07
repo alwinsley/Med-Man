@@ -15,8 +15,10 @@
                                 <h1>LEONARDO</h1>
                                 <p>Your high fidelity tool for high fidelity training</p>
 
-                                <a href="#" id="model-feature" data-toggle="modal" data-target="#exampleModal" class="button button-sliding-icon font-size-20">Request A Quote <i class="fa fa-angle-right"></i></a> 
-
+                                <a href="#" id="model-feature" data-toggle="modal" data-target="#exampleModal" class="button margin-bottom-30 button-sliding-icon font-size-20">Request A Quote <i class="fa fa-angle-right"></i></a> 
+                                <br />
+                              
+                                <a href="#" id="model-feature" data-toggle="modal" data-target="#exampleModal" class="text-white border-white button-sliding-icon font-size-20 margin-top-40">Get More Info <i class="fa fa-angle-right"></i></a> 
                             </div>
                         </div>
                     </div>
@@ -68,7 +70,7 @@
         </section>
 
         <!-- exterior-area -->
-        <section class="white-section section-block">
+        <section class="white-section section-block padding-bottom-100">
 
             <div class="section-space"></div>
             <div class="container">
@@ -91,7 +93,7 @@
                                 <div role="tabpanel" class="tab-pane active" id="feature">
                                     <div class="car-interest">
                                         <div class="car-interest-wrapper">
-                                            <img src="{{asset ('./img/models/exterior.png')}}" alt="Model 1">
+                                            <img src="{{asset ('./img/models/exterior.jpg')}}" alt="Model 1">
                                             <ul>
                                                 <li class="interest-point" style="bottom: 24%;left: 72%;">
                                                     <a class="car-img-replace" href="#0">More</a>
@@ -265,13 +267,14 @@
                     </div>
                 </div>
 
-                <div class="car-interest">
+                {{-- <div class="bg-white car-interest padding-bottom-80">
                     <div class="car-interest-wrapper">
-                        <div class="interior-bg" style="background-image: url('{{asset ('./img/gallery/interior-cover.jpg')}}');"></div>
+                      
                         <img src="{{asset ('./img/gallery/interior-spacing.png')}}" alt="Interior">
                        
+                        
                     </div>
-                </div>
+                </div> --}}
 
             </div>
 
@@ -1163,10 +1166,19 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
-                        <input class="with-border" name="subject" type="text" id="subject"
+                    <div class="col-md-6">
+                        <input class="with-border" name="subject" type="text" id="phone"
                             placeholder="Phone number" required="required">
                     </div>
+                    <div class="col-md-6">
+                            <select class="selectpicker with-border" tabindex="-98">
+                                    <option>Location:</option>
+                                    <option>USA</option>
+                                    <option>Japan</option>
+                                    <option>Europe</option>
+                                    <option>Russian Federation</option>
+                                </select>
+                        </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
@@ -1179,7 +1191,7 @@
                                 <img width="800" height="500" src="{{asset ('./img/post/post6.jpg')}}" alt="">
                         </div>
                         <div class="col-md-6">
-                            <h4>Leonardo</h4>
+                            <h4 class="margin-bottom-0">Leonardo</h4>
                             <p>Human Patient Simulator</p>
                         </div>
                 </div>

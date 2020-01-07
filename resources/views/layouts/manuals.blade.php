@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('content')
-<section class="banner-section">
+{{-- <section class="banner-section">
     <div class="section-bg" style="background-image: url(&quot;assets/img/parallax.jpg&quot;); background-position: 50% 8px;"></div>
     <div class="container">
         <div class="row">
@@ -11,9 +11,15 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
+<div class="section-space dark-section"></div>
+<div class="section-space"></div>
 
+<div class="row content-center">
+        <h1>MedVision Product Manuals</h1>
+</div>
 <div class="row gallery content-center  margin-top-55">
+        
     <div class="col-md-3 wow fadeIn" data-wow-delay=".9s" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeIn;">
 
         <div class="image-holder active">

@@ -189,6 +189,57 @@
         </div>
     </div> --}}
     <div class="section-space"></div>
+
+    <div class="container">
+        <div class="row">
+                <h1>Events</h1>
+        </div>
+            <div class="row">
+               
+                    <div class="col-lg-6">
+                        <article class="post-entry">
+                                <div class="post-image">
+                                    <a href="#">
+                                        <img width="600" height="430" src="{{asset ('./img/post/post4.jpg')}}" alt="">
+                                        <span class="filter-grayscale"></span>
+                                    </a>
+                                </div>
+                                <div class="post-content">
+                                    <h4 class="post-title"><a href="#">IMSH 20th Anniversary</a></h4>
+                                    <p>18-22 January 2020</p>
+                                    
+                                    {{-- <div class="description">
+                                        <p>
+                                        Podcasting operational change management inside of workflows to establish a framework....
+                                        </p>
+                                    </div> --}}
+                                </div>
+                            </article>
+                    </div>
+                    <div class="col-lg-6">
+                            <article class="post-entry">
+                                    <div class="post-image">
+                                        <a href="#">
+                                            <img width="600" height="430" src="{{asset ('./img/post/post1.jpg')}}" alt="">
+                                            <span class="filter-grayscale"></span>
+                                        </a>
+                                    </div>
+                                    <div class="post-content">
+                                        <h4 class="post-title"><a href="#">ASPiH 2019 BELFAST</a></h4>
+                                        <p>4-6 November 2019</p>
+                                        
+                                        {{-- <div class="description">
+                                            <p>
+                                            Podcasting operational change management inside of workflows to establish a framework....
+                                            </p>
+                                        </div> --}}
+                                    </div>
+                                </article>
+                    </div>
+            </div>
+        </div>
+
+        <div class="section-space"></div>
     
     @include('partials.contactForm')
 

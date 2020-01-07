@@ -1766,8 +1766,9 @@ body .alert strong { border: none; }
 }
 
 .dark-section p, .dark-section label, .primary-section p, .primary-section label {
-  color: rgba(255, 255, 255, 0.6);
+  /* color: rgba(255, 255, 255, 0.6); */
   font-weight: 400;
+  font-size: 120%;
 }
 .dark-section .form-block label, .primary-section .form-block label { color: #fff; }
 
@@ -3007,6 +3008,11 @@ support for no js
   position: relative;
   margin-bottom: 0;
 }
+
+.features-entry p {
+  font-size: 120% !important;
+}
+
 .features-entry .image-holder {
   position: relative;
   z-index: 8;

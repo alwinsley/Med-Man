@@ -12,7 +12,7 @@
                     <div class="col-lg-5">
                         <div class="page-title-inner">
                             <div class="page-title-content">
-                                <h1>JUNIOR</h1>
+                                <h1>ARTHUR</h1>
                                 <p>Bringing pediatric patient care
                                         to a whole new level</p>
 
@@ -234,7 +234,7 @@
                         <div class="row gallery">
                             <div class="col-md-3">
                                 <h3 class="section-title font-size-28">Innovations for life</h3>
-                                <p>Junior will assess all of your actions during resuscitation and then provide detailed feedback.
+                                <p>Authur will assess all of your actions during resuscitation and then provide detailed feedback.
                                         Powerful and intuitive, a perfect symbiosis of hardware and software: access our ever-expanding library of clinical cases or create your own.</p>
                             </div>
                             <div class="col-md-3 wow fadeIn" data-wow-delay=".3s">
