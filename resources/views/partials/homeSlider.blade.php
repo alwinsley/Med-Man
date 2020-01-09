@@ -3,7 +3,7 @@
 <section class="slider-area">
     <div class="slider-active">
         <div class="single-slider slider-bg d-flex align-items-center"
-            style="background-image:url({{asset ('./img/slider/slider1.jpg') }})">
+            style="background-image:url({{asset ('./img/slider/sliderLeo.jpg') }})">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">

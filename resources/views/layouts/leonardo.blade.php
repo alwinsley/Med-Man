@@ -18,7 +18,7 @@
                                 <a href="#" id="model-feature" data-toggle="modal" data-target="#exampleModal" class="button margin-bottom-30 button-sliding-icon font-size-20">Request A Quote <i class="fa fa-angle-right"></i></a> 
                                 <br />
                               
-                                <a href="#" id="model-feature" data-toggle="modal" data-target="#exampleModal" class="text-white border-white button-sliding-icon font-size-20 margin-top-40">Get More Info <i class="fa fa-angle-right"></i></a> 
+                                <a href="#" id="model-feature" data-toggle="modal" data-target="#exampleModal2" class="text-white border-white button-sliding-icon font-size-20 margin-top-40">Get More Info <i class="fa fa-angle-right"></i></a> 
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,8 @@
 
         <!-- exterior-area -->
         <section class="white-section section-block padding-bottom-100">
-
+            <div class="section-bg" style="background-image: url({{url('./img/slider/sliderLeo.jpg')}}); background-position: 50% -102px;">
+            </div>
             <div class="section-space"></div>
             <div class="container">
                 <div class="row">
@@ -1180,6 +1181,65 @@
                                 </select>
                         </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <textarea class="with-border" name="comments" cols="20" rows="3" id="comments"
+                            placeholder="Comments" spellcheck="true" required="required"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-6">
+                                <img width="800" height="500" src="{{asset ('./img/post/post6.jpg')}}" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="margin-bottom-0">Leonardo</h4>
+                            <p>Human Patient Simulator</p>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="submit" class="submit button margin-top-15" id="submit"
+                            value="Submit Request">
+                    </div>
+                </div>
+
+            </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+       <!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Leonardo</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form method="post" name="contactform" id="contactform" autocomplete="on">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <input class="with-border" name="name" type="text" id="name" placeholder="Your Name"
+                            required="required">
+                    </div>
+
+                    <div class="col-md-6">
+                        <input class="with-border" name="email" type="email" id="email"
+                            placeholder="Email Address"
+                            pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$"
+                            required="required">
+                    </div>
+                </div>
+               
                 <div class="row">
                     <div class="col-md-12">
                         <textarea class="with-border" name="comments" cols="20" rows="3" id="comments"

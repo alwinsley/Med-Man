@@ -25,7 +25,7 @@
                         <h3 class="text-center">Human Patient Simulators</h3>
                         <div class="image-holder">
                             <a href="products">
-                                <img src="{{asset ('./img/gallery/gallery-interior1Home.jpg')}}" alt="">
+                                <img src="{{asset ('./img/gallery/gallery-interior1.jpg')}}" alt="">
                                 <div class="car-overlay">
                                     <span class="link-holder">
                                         <i class="fa fa-eye"></i>

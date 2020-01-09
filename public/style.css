@@ -316,6 +316,8 @@ h6 a { color: inherit }
 .font-weight-800 { font-weight: 800 !important; }
 .font-weight-900 { font-weight: 900 !important; }
 
+.margin-20 {margin: 20px}
+
 .margin-top-0 { margin-top: 0px !important; }
 .margin-top-5 { margin-top: 5px !important; }
 .margin-top-10 { margin-top: 10px !important; }
@@ -426,6 +428,8 @@ h6 a { color: inherit }
 
 .no-padding { padding: 0 !important; }
 .no-margin { margin: 0 !important; }
+
+
 
 
 /* Buttons
@@ -4308,6 +4312,8 @@ support for no js
   display: inline-block;
   position: relative;
   margin: 0 auto;
+  border: 1px solid #dcdcdc;
+    padding: 5px;
 }
 .car-interest-wrapper ul {
 	margin: 0;
@@ -4736,7 +4742,7 @@ support for no js
     width: 100%;
 }
 .interior-container .section-title-wrapper {
-    position: absolute;
+
     z-index: 9;
     background-color: rgba(0, 0, 0, 1);
     padding: 20px 60px;
