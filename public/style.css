@@ -4003,6 +4003,7 @@ support for no js
 /* Content Area
 -------------------------------------------------------------- */
 .content-center {justify-content: center;}
+.content-between {display: flex; justify-content: space-between;}
 .content-area { padding: 0 15px; }
 .content-area > h2 {
   font-size: 33px;
@@ -4236,10 +4237,10 @@ support for no js
 }
 
 .image-holder {
-  padding: 10px;
+  /* padding: 10px; */
   position: relative;
   margin-bottom: 30px;
-  border: 1px solid #dcdcdc
+  /* border: 1px solid #dcdcdc */
 }
 
 .image-holder-dark {
@@ -4312,8 +4313,8 @@ support for no js
   display: inline-block;
   position: relative;
   margin: 0 auto;
-  border: 1px solid #dcdcdc;
-    padding: 5px;
+  /* border: 1px solid #dcdcdc; */
+    /* padding: 5px; */
 }
 .car-interest-wrapper ul {
 	margin: 0;
@@ -4337,13 +4338,14 @@ support for no js
   width: 30px;
   height: 30px;
   border-radius: inherit;
-  background: #ce0700;
+  background: #a90600;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.3);
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
 .interest-point > a::after, .interest-point > a:before {
+  display: none;
   content: '';
   position: absolute;
   left: 50%;
@@ -4744,7 +4746,7 @@ support for no js
 .interior-container .section-title-wrapper {
 
     z-index: 9;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: #07254d;
     padding: 20px 60px;
     bottom: 0;
     margin: 0;

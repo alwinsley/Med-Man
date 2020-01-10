@@ -1182,9 +1182,41 @@
                         </div>
                 </div>
                 <div class="row">
+                        <div class="col-md-6">
+                            <input class="with-border" name="institution" type="text" id="institution" placeholder="Institution"
+                                required="required">
+                        </div>
+    
+                        <div class="col-md-6">
+                            <input class="with-border" name="title" type="text" id="title"
+                                placeholder="Title"
+                                required="required">
+                        </div>
+                    </div>
+                <div class="row">
                     <div class="col-md-12">
                         <textarea class="with-border" name="comments" cols="20" rows="3" id="comments"
                             placeholder="Comments" spellcheck="true" required="required"></textarea>
+                    </div>
+                </div>
+                <div class="row margin-bottom-10">
+                    <div class="col-md-12 content-between">
+                            <div class="checkbox">
+                                    <input type="checkbox" id="chekcboxLeo" checked="">
+                                    <label for="chekcboxLeo"><span class="checkbox-icon"></span> Leonardo</label>
+                                </div>
+                                <div class="checkbox">
+                                        <input type="checkbox" id="chekcboxArt" >
+                                        <label for="chekcboxArt"><span class="checkbox-icon"></span> Arthur</label>
+                                    </div>
+                                    <div class="checkbox">
+                                            <input type="checkbox" id="chekcboxMia" >
+                                            <label for="chekcboxMia"><span class="checkbox-icon"></span> Mia</label>
+                                        </div>
+                                        <div class="checkbox">
+                                                <input type="checkbox" id="chekcboxAus" >
+                                                <label for="chekcboxAus"><span class="checkbox-icon"></span> Ausculatation</label>
+                                            </div>
                     </div>
                 </div>
                 <div class="row">

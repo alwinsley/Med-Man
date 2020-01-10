@@ -6,8 +6,8 @@
                             data-transparent-logo="{{ asset ('./img/medVisionlogo_wht.png') }}" alt=""></a>
                     <ul class="header-buttons">
                         <li class="dropdown">
-                            <a class="user-trigger" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i
-                                    class="fa fa-user-circle" aria-hidden="true"></i></a>
+                            {{-- <a class="user-trigger" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i
+                                    class="fa fa-user-circle" aria-hidden="true"></i></a> --}}
                             <ul class="dropdown-menu">
                                 <li><a href="#">Profile Settings</a></li>
                                 <li><a href="#">My Appointment</a></li>
@@ -28,47 +28,46 @@
 
                                     <li>
                                         <a class="nav-item" href="leonardo">
-                                            <img class="image-holder" src="{{asset ('./img/models/model1-menu.png') }}"
+                                            <img class="image-holder" src="{{asset ('./img/LEO.png') }}"
                                                 alt="LEONARDO">
                                             <h3>LEONARDO</h3>
-                                            <p class="price">High Fidelity<br /><small> Simulator of a
-                                                    male adult.</small></p>
+                                            <p class="price">Adult Simulator<br /></p>
                                             <p class="tech">
-                                                View LEONARDO
+                                                View 
                                             </p>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="nav-item" href="junior">
-                                            <img class="image-holder" src="{{asset ('./img/models/model2-menu.png') }}"
+                                            <img class="image-holder" src="{{asset ('./img/Arthur.png') }}"
                                                 alt="AUTHOR">
                                             <h3>ARTHUR</h3>
-                                            <p class="price">Pediatric<br /><small>Simulator of a 5 - 8 yr old</small>
+                                            <p class="price">Pediatric<br />
                                             </p>
                                             <p class="tech">
-                                                View ARTHUR
+                                                View 
                                             </p>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="nav-item" href="mia">
-                                            <img class="image-holder" src="{{asset ('./img/models/model3-menu.png') }}" alt="MIA">
+                                            <img class="image-holder" src="{{asset ('./img/Mia.png') }}" alt="MIA">
                                             <h3>MIA</h3>
-                                            <p class="price">New Born<br /><small>Simulator of small infant </small></p>
+                                            <p class="price">NewBorn<br /></p>
                                             <p class="tech">
-                                                View MIA
+                                                View 
                                             </p>
                                         </a>
                                     </li>
 
                                     <li>
                                             <a class="nav-item" href="auscultation">
-                                                <img class="image-holder" src="{{asset ('./img/models/model8-menu.png') }}" alt="auscultation">
+                                                <img class="image-holder" src="{{asset ('./img/Auscultation.png') }}" alt="auscultation">
                                                 <h3>AUSCULTATION</h3>
                                                 <p class="price">Auscultation
-                                                    <br /><small>Auscultation simulator</small></p>
+                                                    <br /></p>
                                                 <p class="tech">
-                                                    View MIA
+                                                    View 
                                                 </p>
                                             </a>
                                         </li>
@@ -93,7 +92,7 @@
                                                 <h3>LapVision</h3>
                                                 <p class="price">Laparoscopic Instruments</p>
                                                 <p class="tech">
-                                                    View LapVision
+                                                    View 
                                                 </p>
                                             </a>
                                         </li>
@@ -105,7 +104,7 @@
                                                 <p class="price">Endovascular procedures
                                                 </p>
                                                 <p class="tech">
-                                                    View AngioVision
+                                                    View 
                                                 </p>
                                             </a>
                                         </li>
@@ -115,7 +114,7 @@
                                                 <h3>HystVision</h3>
                                                 <p class="price">Resectoscope for hysteroscopy</p>
                                                 <p class="tech">
-                                                    View HystVision
+                                                    View 
                                                 </p>
                                             </a>
                                         </li>
@@ -125,7 +124,7 @@
                                                     <h3>EndoVision</h3>
                                                     <p class="price">Endoscopy instruments</p>
                                                     <p class="tech">
-                                                        View EndoVision
+                                                        View 
                                                     </p>
                                                 </a>
                                             </li>
@@ -133,7 +132,7 @@
                                 </li>
 
 
-                           
+                                <li><a href="about">About Us</a></li>
                             <li><a href="manuals">Manuals</a></li>
                             {{-- <li><a href="pages-about.html">Events</a></li> --}}
                             <li><a href="contact">Contact Us</a></li>
