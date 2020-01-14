@@ -10,11 +10,8 @@
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div class="content-area text-center">
-                    <h2 class="margin-bottom-10">Advanced technologies for <span>modern, high-key medical
-                            education.</span></h2>
-                    <p class="txt-grey">The Medvision experience brings you: High fidelity, Intuitive
-                        software, and highly
-                        realistic simulations.</p>
+                    <h2 class="margin-bottom-10">Advanced Technologies </h2>
+                    <p class="txt-grey">Our Human Patient simulators represent the highest standard of realism in form and function.</p>
                 </div>
 
                 <div class="row gallery margin-top-55">
@@ -188,8 +185,13 @@
             </div>
         </div>
     </div> --}}
-    <div class="section-space"></div>
+    
 
+    <section class="white-section section-block">
+        <div class="section-space"></div>
+    <div class="section-bg"
+    style="background-image: url({{asset ('./img/slider/slider1.jpg')}}); background-position: 50% 8px;">
+</div>
     <div class="container">
         <div class="row">
                 <h1>Events</h1>
@@ -238,6 +240,7 @@
                     </div>
             </div>
         </div>
+    </div>
 
         <div class="section-space"></div>
     

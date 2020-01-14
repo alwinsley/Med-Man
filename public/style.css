@@ -81,6 +81,14 @@ html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: 
 ::selection { background: #5b7f95; color:#fff; }
 
 hr { background-color: #e0e0e0; border: 0; height: 1px; margin-bottom: 20px; }
+.faded-hr { 
+  height: 8px;
+  background-image: linear-gradient(90deg, orange, transparent);
+  border: 0;
+  width:40%;
+  height: 1px;
+  margin: 5px auto;
+}
 
 /* List */
 ul,
@@ -1737,6 +1745,19 @@ body .alert strong { border: none; }
   background-attachment: fixed;
   opacity: .1;
 }
+.section-bg-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  opacity: .1;
+}
+
 .banner-section .section-bg { opacity: 1 }
 .section-title {
   font-size: 35px;
@@ -4002,7 +4023,31 @@ support for no js
 
 /* Content Area
 -------------------------------------------------------------- */
+.content-flex {display:flex; justify-content: space-between;}
 .content-center {justify-content: center;}
+.content-rounded {
+  max-width: 320px;
+  max-height: 320px;
+  vertical-align: middle;
+  background: white;
+  border-radius: 100%;
+  text-align: center;
+  padding: 40px;
+  line-height: normal;
+}
+.content-rounded h6 {
+  margin: 0 0 10px 0;
+}
+
+.content-border-wrap {
+  max-width: 300px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, blue, orange);
+  padding: 3px;
+  border-radius: 100%;
+}
+
 .content-between {display: flex; justify-content: space-between;}
 .content-area { padding: 0 15px; }
 .content-area > h2 {

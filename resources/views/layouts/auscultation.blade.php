@@ -54,7 +54,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="features-entry margin-bottom-0 wow fadeInRight">
-                            <div class="image-holder margin-bottom-0">
+                            <div class="image-holder margin-bottom-0" style="border-radius:100%;">
 
                                 <img width="800" height="500" src="{{asset ('./img/post/post7.jpg')}}" alt="">
                                
@@ -267,7 +267,7 @@
         </section>
         <div class="section-space"></div>
         <section class="page-title-wrapper">
-            <div class="section-bg" style="background-image: url({{url('./img/slider/sliderAus.jpg')}}); background-position: 10% 71px;">
+            <div class="section-bg-bottom" style="background-image: url({{url('./img/slider/sliderAus.jpg')}}); background-position: 10% 71px;">
             </div>
             <div class="container">
                 <div class="row">

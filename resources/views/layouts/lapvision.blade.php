@@ -269,7 +269,7 @@
 
                 <div class="car-interest">
                     <div class="car-interest-wrapper">
-                        <div class="interior-bg" style="background-image: url('{{asset ('./img/gallery/interior-cover.jpg')}}');"></div>
+                        <div class="interior-bg" style="background-image: url('{{asset ('./img/slider/slider2.jpg')}}');"></div>
                         <img src="{{asset ('./img/gallery/interior-spacing.png')}}" alt="Interior">
                        
                     </div>
@@ -280,7 +280,7 @@
         </section>
         <div class="section-space"></div>
         <section class="page-title-wrapper">
-            <div class="section-bg" style="background-image: url({{url('./img/slider/sliderLap.jpg')}}); background-position: 10% 71px;">
+            <div class="section-bg-bottom" style="background-image: url({{url('./img/slider/sliderLap.jpg')}}); background-position: 10% 71px;">
             </div>
             <div class="container">
                 <div class="row">

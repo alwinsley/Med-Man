@@ -87,7 +87,7 @@
     
                                         <li>
                                             <a class="nav-item" href="lapvision">
-                                                <img class="image-holder" src="{{asset ('./img/models/model4-menu.png') }}"
+                                                <img class="image-holder" src="{{asset ('./img/LapVision.png') }}"
                                                     alt="LapVision">
                                                 <h3>LapVision</h3>
                                                 <p class="price">Laparoscopic Instruments</p>
@@ -98,7 +98,7 @@
                                         </li>
                                         <li>
                                             <a class="nav-item" href="angiovision">
-                                                <img class="image-holder" src="{{asset ('./img/models/model5-menu.png') }}"
+                                                <img class="image-holder" src="{{asset ('./img/AngioVision.png') }}"
                                                     alt="AngioVision">
                                                 <h3>AngioVision</h3>
                                                 <p class="price">Endovascular procedures
@@ -110,7 +110,7 @@
                                         </li>
                                         <li>
                                             <a class="nav-item" href="hystvision">
-                                                <img class="image-holder" src="{{asset ('./img/models/model6-menu.png') }}" alt="HystVision">
+                                                <img class="image-holder" src="{{asset ('./img/HystVision.png') }}" alt="HystVision">
                                                 <h3>HystVision</h3>
                                                 <p class="price">Resectoscope for hysteroscopy</p>
                                                 <p class="tech">
@@ -120,7 +120,7 @@
                                         </li>
                                         <li>
                                                 <a class="nav-item" href="endovision">
-                                                    <img class="image-holder" src="{{asset ('./img/models/model7-menu.png') }}" alt="EndoVision">
+                                                    <img class="image-holder" src="{{asset ('./img/Endovision.png') }}" alt="EndoVision">
                                                     <h3>EndoVision</h3>
                                                     <p class="price">Endoscopy instruments</p>
                                                     <p class="tech">
@@ -133,7 +133,7 @@
 
 
                                 <li><a href="about">About Us</a></li>
-                            <li><a href="manuals">Manuals</a></li>
+                            <li><a href="manuals">Media</a></li>
                             {{-- <li><a href="pages-about.html">Events</a></li> --}}
                             <li><a href="contact">Contact Us</a></li>
                         </ul>

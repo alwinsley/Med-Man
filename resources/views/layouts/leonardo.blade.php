@@ -54,7 +54,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="features-entry margin-bottom-0 wow fadeInRight">
-                            <div class="image-holder margin-bottom-0">
+                            <div class="image-holder margin-bottom-0" style="border-radius:100%;">
 
                                 <img width="800" height="500" src="{{asset ('./img/post/post6.jpg')}}" alt="">
                                
@@ -224,6 +224,75 @@
 
         </section>
 
+
+
+        <!--  Round section -->
+
+        <section class="white-section "> 
+
+                <div class="interior-container">
+                        <div class="mid-space"></div>
+                        <div class="container content-flex">
+                            
+
+                            <div class="content-border-wrap">
+                            <div class="content-rounded">
+                                <h6>Paramount Realism</h6>
+                                <hr class="faded-hr"/>
+                                <p class="margin-bottom-50">We used a real person’s MRI
+                                    images, consulted with
+                                    independent specialist and
+                                    clinics with HPS’S appearance
+                                    and musculoskeletal structure to
+                                    offer a lifelike full body mobility
+                                    in all main joints.<br/></p>
+                                </div>
+                            </div>
+
+                            <div class="content-border-wrap">
+                                    <div class="content-rounded">
+                                        <h6>Expansive Software</h6>
+                                        <hr class="faded-hr"/>
+                                        <p class="margin-bottom-50">Pharmacokinetics are added in
+        
+                                                order to simulate correct re-
+                                                sponses to medication. Our ECG
+                                                
+                                                Constructor allows the user to
+                                                create custom ECG graph and
+                                                unique educational modules
+                                                (Scenarios) tailored to your
+                                                needs.<br/></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-border-wrap">
+                                            <div class="content-rounded">
+                                                <h6>Advance Simulation</h6>
+                                                <hr class="faded-hr"/>
+                                                <p>Our Next Generation of Human
+                                                        Patient Simulation has drastically
+                                                        improved automatic tracking and
+                                                        evaluation, intuitively simple and
+                                                        
+                                                        elegant software. Interchange-
+                                                        able trauma limbs, wound and
+                                                        
+                                                        amputation modules which
+                                                        containt main biological fluid
+                                                        capability.</p>
+                                                </div>
+                                            </div>
+                                   
+                        </div>
+                        <div class="mid-space"></div>
+                   
+                </div>
+        </section>
+
+
+
+
         <!-- interior-area -->
         <section class="dark-section"> 
 
@@ -280,9 +349,11 @@
             </div>
 
         </section>
+
+
         <div class="section-space"></div>
         <section class="page-title-wrapper">
-            <div class="section-bg" style="background-image: url({{url('./img/slider/sliderLeo.jpg')}}); background-position: 10% 71px;">
+            <div class="section-bg-bottom" style="background-image: url({{url('./img/gallery/interior-coverJunior.jpg')}});">
             </div>
             <div class="container">
                 <div class="row">

@@ -86,10 +86,10 @@
                   </div>
                   <div class="col-sm-6">
                       <div class="social">
-                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          {{-- <a href="#"><i class="fa fa-facebook"></i></a> --}}
                           <a href="#"><i class="fa fa-instagram"></i></a>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                          <a href="#"><i class="fa fa-youtube"></i></a>
+                          {{-- <a href="#"><i class="fa fa-twitter"></i></a> --}}
+                          <a href="#"><i class="fa fa-linkedin"></i></a> 
                       </div>
                   </div>
               </div>
