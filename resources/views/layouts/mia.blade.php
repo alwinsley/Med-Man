@@ -27,7 +27,7 @@
         </div>
 
         <!-- features-area -->
-        <section class="dark-section section-block">
+        <section class="bg-dark-grid section-block">
 
             <div class="section-space"></div>
             <div class="container">
@@ -37,14 +37,26 @@
                             
 
                                 {{-- <h2 class="section-title">Leonardo (HF).</h2> --}}
-                                <p><strong>Mia has been developed from the ground-up, with our most dedicated and experienced specialists, leading experts in the field of neonatology. Critical conditions, split second decisions and realism - for those, who save the most dear.</strong></p>
-                                <p>
-                                  <ul class="text-white">
-                                  <li>Reliable wireless connection up to 100 feet</li>
-                                  <li>Up to 4 hours of battery life</li>
-                                      <li> Built-in air compressor</li>
-                                  </ul>
-                                  </p>
+                                <p class="text-white font-size-18"><strong>Mia 21’’/8lbs </strong> has been developed from the
+                                        ground up with our most dedicated, experienced specialists
+                                        and leading experts in the field of Neonatology.
+                                        Mia cotains the realism that helps recognize
+                                        critical conditions and make split second decisions
+                                        for those who save the most dear.</p>
+                                    <h2 class="text-white"><strong>Technical Features:</strong></h2>
+                                    <p class="text-white">Being able to use real medical devices is paramount
+                                            in simulation-based training. This factor
+                                            narrows down the line between a real patient and
+                                            a simulator.</p>
+                            <p>
+                                    <ul class="text-white">
+                                           <li>ECG, deﬁbrillation</li>
+                                                <li>Pacing, capnography</li>
+                                                        <li>Medical ventilator with diﬀerent modes (A / C,
+                                            SIMV, CPAP, PCV, PSV, NIPPV)</li>
+                                            <li>Set up of PEEP values up to 20 cmH2O</li>
+                                    </ul>
+                              </p>
 
                             
                         </div>
@@ -53,7 +65,7 @@
                         <div class="features-entry margin-bottom-0 wow fadeInRight">
                             <div class="image-holder margin-bottom-0" style="border-radius:100%;">
 
-                                <img width="800" height="500" src="{{asset ('./img/slider/sliderMia.jpg')}}" alt="">
+                                <img width="800" height="500" src="{{asset ('./img/post/post77.jpg')}}" alt="">
                                
                                 <span class="project-overlay"></span>
                              
@@ -67,10 +79,10 @@
         </section>
 
         <!-- exterior-area -->
-        <section class="white-section section-block">
+        <section class="padding-bottom-100">
 
             <div class="section-space"></div>
-            <div class="container">
+            <div>
                 <div class="row">
                     <div class="col-md-12 text-center section-title-wrapper">
                         <h3 class="section-title">Features</h3>
@@ -89,11 +101,11 @@
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane active" id="feature">
                                     <div class="car-interest">
-                                        <div class="car-interest-wrapper">
-                                            <img src="{{asset ('./img/models/exteriorMia.png')}}" alt="Model 1">
+                                        <div class="car-interest-wrapper-full">
+                                            <img src="{{asset ('./img/models/mia.jpg')}}" alt="Model 1">
                                             <ul>
                                                 <li class="interest-point" style="bottom: 24%;left: 72%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                     <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-top">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxMia2.jpg')}}" alt=""/>
                                                         <h3>Basic evaluation</h3>
@@ -109,7 +121,7 @@
                                                 </li> 
 
                                                 <li class="interest-point" style="top: 32%; left: 18%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                     <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-right">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxMia.jpg')}}" alt=""/>
                                                         <h3>Neonatal resuscitation</h3>
@@ -217,10 +229,15 @@
                     <div class="container">
                         <div class="mid-space"></div>
                         <div class="row gallery">
-                            <div class="col-md-3">
-                                <h3 class="section-title font-size-28">Innovations for life</h3>
-                                <p>We understand how important for neonatologists intubation is, this is why Mia’s airways are as realistic as possible, wear-resistant material makes sure that trainees can intubate again and again - until they perfect it.</p>
+                            <div class="col-md-12">
+                                    <h3 class="section-title font-size-28">Neonatal Resuscitation</h3>
+                                <p>We understand how important intubation is for neonatologists. This is why
+                                        Mia’s airways are as realistic as possible and have wear-resistant material
+                                        that insures trainees will be able to intubate again and again- until they have perfected the
+                                        procedure. This will enable you to feel more knowledgeable and confident when you work with real,
+                                        baby patients in your professional life.</p><br/>
                             </div>
+                            <div class="col-md-1"></div>
                             <div class="col-md-3 wow fadeIn" data-wow-delay=".3s">
                                 <div class="image-holder">
                                    
@@ -252,17 +269,54 @@
                     </div>
                 </div>
 
-                <div class="car-interest">
+                {{-- <div class="car-interest">
                     <div class="car-interest-wrapper">
                         <div class="interior-bg" style="background-image: url('{{asset ('./img/gallery/interior-coverMia.jpg')}}');"></div>
                         <img src="{{asset ('./img/gallery/interior-spacing.png')}}" alt="Interior">
                        
                     </div>
-                </div>
+                </div> --}}
 
             </div>
 
         </section>
+
+
+        <section class="light-section section-block">
+
+                <div class="section-space"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center section-title-wrapper">
+                            <h3 class="section-title">Key Features</h3>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <ul class="font-size-18">
+                            <li>Wireless/Tetherless connection</li>
+                                    <li>Palpable bone landmarks</li>
+                                            <li>Head tilt/chin lift sensor and Jaw thrust</li>
+                                                    <li>Breathing patterns</li>
+                                                            <li>Oro/nasotracheal intubation</li>
+                                                                    <li>Intubation sensor/depth sensor</li>
+                                                                            <li>Airway complications(tongue edema, pharyngeal obstruction, laryngospasm)</li>
+                                                                                    <li>Interactive eyes</li>
+                                                                                            <li>Variable lung compliance, resistance</li>
+                            <li>Cyanosis, icterus, rubella, pallor</li>
+                                    <li>Adjustable palpable pulse (Bi-radial, bracheal, femoral and umbilical, fontanel)</li>
+                                            <li>Umbilical catheterization (UVC/UAC) continuos infusion and sampling.</li>
+                                                    
+                                                                    <li>Mouth movement</li>
+                                                                    <li>Mechanical ventilation (A/C, SIMV, CPAP, BiPAP, PCV, VCV, NIPPV, PIP, PEEP >20 cmH2O)</li>
+                        </ul>
+                    </div>             
+                </div>
+               
+    
+        </section>
+
+
         <div class="section-space"></div>
         <section class="page-title-wrapper">
             <div class="section-bg-bottom" style="background-image: url({{url('./img/slider/sliderMia.jpg')}}); background-position: 10% 71px;">

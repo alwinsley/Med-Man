@@ -249,6 +249,7 @@ h6 a { color: inherit }
 -------------------------------------------------------------- */
 
 .txt-grey {color: #999;}
+.txt-orange {color: #ff3900;}
 .display-none, .hidden { display: none !important; }
 .display-block { display: block !important; }
 .display-inline { display: inline !important; }
@@ -262,6 +263,24 @@ h6 a { color: inherit }
 .bg-accent { background-color: #1c63b8; }
 .bg-light-grey { background-color: #f7f7f7; }
 .bg-dark { background-color: #333 !important; }
+.bg-dark-grid {background-color: #07254d;
+  background-size: 1100px 100px, 100px 100px, 20px 10px, 10px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  background-image: -webkit-linear-gradient(#041634f0 .5px, #020f27a8 2px), -webkit-linear-gradient(0, #06224a .5px, transparent 2px), -webkit-linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px), -webkit-linear-gradient(0, rgba(255,255,255,.1) 1px, transparent 1px);
+  background-image: -moz-linear-gradient(#041634f0 .5px, #020f27a8 2px),
+                    -moz-linear-gradient(0, #06224a .5px, transparent 2px),
+                    -moz-linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px),
+                    -moz-linear-gradient(0, rgba(255,255,255,.1) 1px, transparent 1px);
+  background-image: linear-gradient(#041634f0 .5px, #020f27a8 2px),
+                    linear-gradient(90deg, #06224a .5px, transparent 2px),
+                    linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px);
+  -pie-background: linear-gradient(#041634f0 .5px, #020f27a8 2px) -2px -2px / 100px,
+                   linear-gradient(90deg, #06224a .5px, transparent 2px) -2px -2px / 100px,
+                   linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px) -1px -1px / 20px,
+                   linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px) -1px -1px / 20px,
+                   #07254d;
+  behavior: url(/pie/PIE.htc);}
 
 .text-center { text-align: center !important; }
 .text-right { text-align: right !important; }
@@ -324,6 +343,7 @@ h6 a { color: inherit }
 .font-weight-800 { font-weight: 800 !important; }
 .font-weight-900 { font-weight: 900 !important; }
 
+.margin-5 {margin: 5px}
 .margin-20 {margin: 20px}
 
 .margin-top-0 { margin-top: 0px !important; }
@@ -4023,6 +4043,19 @@ support for no js
 
 /* Content Area
 -------------------------------------------------------------- */
+.divider-1 {
+  border-bottom: 1px solid #F60;
+  background-color: #F60;
+  height: 1px;
+  margin: 0.5em 0px 1.5em;
+}
+
+.divider-1 span {
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #F60;
+}
 .content-flex {display:flex; justify-content: space-between;}
 .content-center {justify-content: center;}
 .content-rounded {
@@ -4040,7 +4073,7 @@ support for no js
 }
 
 .content-border-wrap {
-  max-width: 300px;
+  max-width: 320px;
   padding: 1rem;
   position: relative;
   background: linear-gradient(to right, blue, orange);
@@ -4351,8 +4384,14 @@ support for no js
 .car-img-replace {
   display: inline-block;
   overflow: hidden;
-  text-indent: 100%;
+  /* text-indent: 100%; */
   white-space: nowrap;
+}
+.car-interest-wrapper-full {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
 }
 .car-interest-wrapper {
   display: inline-block;
@@ -4361,9 +4400,20 @@ support for no js
   /* border: 1px solid #dcdcdc; */
     /* padding: 5px; */
 }
+
+.car-interest-wrapper-full ul {
+  margin: 0;
+	list-style-type: none;
+}
 .car-interest-wrapper ul {
 	margin: 0;
 	list-style-type: none;
+}
+
+.car-interest-wrapper-full > img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 .car-interest-wrapper > img {
   display: block;
@@ -4391,7 +4441,7 @@ support for no js
 }
 .interest-point > a::after, .interest-point > a:before {
   display: none;
-  content: '';
+  content: 'f002';
   position: absolute;
   left: 50%;
   top: 50%;

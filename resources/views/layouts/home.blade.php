@@ -15,24 +15,78 @@
                 </div>
 
                 <div class="row gallery margin-top-55">
-                    <div class="col-md-1">
-                    </div>
-                    <div class="border-right col-md-5 wow fadeIn" data-wow-delay=".3s"
+                    
+                  
+                    <div class="col-md-6 wow fadeIn" data-wow-delay=".3s"
                         style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
-                        <h3 class="text-center">Human Patient Simulators</h3>
+                     
+                       
                         <div class="image-holder">
+                                <div class="section-bg-bottom"
+                                style="background-image: url({{asset ('./img/gallery/gallery-interior12.jpg')}});background-size: contain; border-radius:100%; opacity:1;padding: 300px;">
+                            </div>
                             <a href="products">
-                                <img src="{{asset ('./img/gallery/gallery-interior1.jpg')}}" alt="">
+                                   
+                                {{-- <img src="{{asset ('./img/gallery/gallery-interior1.jpg')}}" alt=""> --}}
                                 <div class="car-overlay">
-                                    <span class="link-holder">
-                                        <i class="fa fa-eye"></i>
-                                    </span>
+                                    {{-- <span class="link-holder" style="top:300px">
+                                            <span type="" class="button">View</span>
+                                    </span> --}}
                                 </div>
                             </a>
                         </div>
-                        <p>Our Human Patient simulators represent the highest standard of realism in for and function.</p>
+                        
                     </div>
                     <div class="col-md-5 wow fadeIn" data-wow-delay=".6s"
+                    style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn; padding-bottom:0px;">
+                    <h2 class="text-left margin-bottom-10">Human Patient Simulators</h2>
+                    
+                    <p>Our Human Patient simulators represent the highest standard of realism in for and function.</p>
+<br/>
+
+                    <div class="margin-left-40">
+                        <h3 class="margin-bottom-5"><strong><span class="txt-orange">Lifelike</span> Body</strong></h3>
+                        <p>We used a real person’s MRI
+
+                        images and consulted with sev-
+                        eral independent specialist and
+
+                        clinics with HPS’S appearance
+                        and musculoskeletal structure is
+                        lifelike offering full body mobility
+                        in all main joints.</p>
+                    </div>
+                    <br/>
+                        <div class="margin-left-60">
+                        <h3 class="margin-bottom-5"><strong><span class="txt-orange">Extensive</span> Software</strong></h3>
+                        <p>Pharmacokinetics are added in
+
+                            order to simulate correct respons-
+                            es to medication. Our ECG Con-
+                            structor allows the user to create
+
+                            custom ECG graph and unique
+                            educational modules (Scenarios)
+                            tailored to their needs.</p>
+                        </div>
+                        <br/>
+                        <div class="margin-left-10">
+                                <h3 class="margin-bottom-5"><strong><span class="txt-orange">Advance</span> Simulation</strong></h3>
+                                <p>Our Next Generation of Human
+                                        Patient Simulation has drastically
+                                        improved automatic tracking and
+                                        evaluation, intuitively simple and
+                                        
+                                        elegant software. Interchange-
+                                        able trauma limbs, wound and
+                                        
+                                        amputation modules which
+                                        containt main biological fluid
+                                        capability.</p>
+                                </div>
+                </div>
+                  
+                    {{-- <div class="col-md-5 wow fadeIn" data-wow-delay=".6s"
                         style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;">
                         <h3 class="text-center">Minimally Invasive Surgery</h3>
                         <div class="image-holder">
@@ -46,7 +100,7 @@
                             </a>
                         </div>
                         <p>We provide instrument imitations for every instrument manufacturer brand out there, available by special order.</p>
-                    </div>
+                    </div> --}}
                     <div class="col-md-1">
                     </div>
                 </div>
@@ -55,7 +109,23 @@
 
         </div>
         <div class="section-space"></div>
+
+        
+        <div class="divider-1"> <span></span></div>
+        
+        <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="text-center">
+                            <h2 class="text-center margin-bottom-5">Minimally Invasive Surgery</h2>
+                        <p class="txt-grey">We provide instrument imitations for every instrument manufacturer brand out there, available by special order.</p>
+                    </div>
+                    <div class="margin-top-60">
+                    <img src="{{asset ('./img/slider/sliderLap.jpg')}}" alt="">
+                    </div>
+                </div>
+        </div>
     </div>
+    <div class="section-space"></div>
 </section>
 
 

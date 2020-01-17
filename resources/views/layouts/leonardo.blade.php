@@ -27,7 +27,7 @@
         </div>
 
         <!-- features-area -->
-        <section class="dark-section section-block">
+        <section class="bg-dark-grid section-block">
 
             <div class="section-space"></div>
             <div class="container">
@@ -37,17 +37,27 @@
                             
 
                                 {{-- <h2 class="section-title">Leonardo (HF).</h2> --}}
-                                <p><strong>Leonardo HF is a Human Patient Simulator of a male adult. Created in order to solve most diﬃcult tasks in specialist training: vital signs, realistic feel and feedback, increased durability are only a few of his many traits.</strong></p>
-                                <p>
-                                  <ul class="text-white">
-                                  <li>tetherless connection (with up to 8 hours of battery life)</li>
-                                  <li>rechargeable, swappable battery</li>
-                                      <li> smart accessories</li>
-                                      <li> a steady supply of durable consumables</li>
-                                       <li>realistic, seamless skin, easy to clean and with no protruding parts</li>
-                                       <li> increased durability, reliable construction</li>
-                                  </ul>
-                                  </p>
+                                <p class="text-white font-size-18"><strong>Leonardo HF</strong> is a High-Fidelity patient simulator of the highest standard
+                                        of realism in form and function. It is design for cariopulmanary
+                                        resuscitation performance training, intensive care, and life-support
+                                        procedures using a large variaty of possible medical situations.</p>
+                                <h2 class="text-white"><strong>Develop Major Medical Skills:</strong></h2>
+                                <ul class="text-white">
+                                        <li><strong>Perform CPR</strong> with or without use of acute care medication and
+                                        a real defibrillator.</li>
+                                        <li>Perform normal <strong>intubation procedures</strong> or with complications.
+                                        Tongue swelling, laryngeal edema, laryngospasm, left/right
+                                        bronchi obstruction and lockjaw.</li>
+                                        <li>Decompression of <strong>tension pneumothorax</strong>, perform
+                                        pleural cavity drainage and Urethral <strong>Catheterization</strong>.</li>
+                                        <li>Perform <strong>intramuscular, intraosseous and intravenous
+                                        injections</strong> with selection of administered medicine and
+                                        amount of dose given with automatic software recognition.</li>
+                                        <li>Perform cricoid pressure technique <strong>(Sellick’s maneuver)</strong></li>
+                                                <li><strong>Auscultation </strong>and interpretation of heart, lungs and bowels
+                                        sounds with <strong>Korotkoff tones</strong> which requires correct
+                                        positioning of instrument.</li>
+                                </ul>
 
                             
                         </div>
@@ -56,7 +66,7 @@
                         <div class="features-entry margin-bottom-0 wow fadeInRight">
                             <div class="image-holder margin-bottom-0" style="border-radius:100%;">
 
-                                <img width="800" height="500" src="{{asset ('./img/post/post6.jpg')}}" alt="">
+                                <img width="800" height="500" src="{{asset ('./img/post/post66.jpg')}}" alt="">
                                
                                 <span class="project-overlay"></span>
                              
@@ -70,11 +80,11 @@
         </section>
 
         <!-- exterior-area -->
-        <section class="white-section section-block padding-bottom-100">
-            <div class="section-bg" style="background-image: url({{url('./img/slider/sliderLeo.jpg')}}); background-position: 50% -102px;">
-            </div>
+        <section class="padding-bottom-100">
+            {{-- <div class="section-bg" style="background-image: url({{url('./img/slider/sliderLeo.jpg')}}); background-position: 50% -102px;">
+            </div> --}}
             <div class="section-space"></div>
-            <div class="container">
+            <div class="">
                 <div class="row">
                     <div class="col-md-12 text-center section-title-wrapper">
                         <h3 class="section-title">Features</h3>
@@ -93,11 +103,11 @@
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane active" id="feature">
                                     <div class="car-interest">
-                                        <div class="car-interest-wrapper">
-                                            <img src="{{asset ('./img/models/exterior.jpg')}}" alt="Model 1">
+                                        <div class="car-interest-wrapper-full">
+                                            <img src="{{asset ('./img/models/leo.jpg')}}" alt="Model 1">
                                             <ul>
                                                 <li class="interest-point" style="bottom: 24%;left: 72%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                    <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-top">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxLeo.jpg')}}" alt=""/>
                                                         <h3>Vital signs</h3>
@@ -113,7 +123,7 @@
                                                 </li> 
 
                                                 <li class="interest-point" style="top: 32%; left: 18%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                        <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-right">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxLeo2.jpg')}}" alt=""/>
                                                         <h3>Intubation</h3>
@@ -128,7 +138,7 @@
                                                 </li> 
 
                                                 <li class="interest-point" style="top: 38%;right: 61%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                        <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-left">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxLeo3.jpg')}}" alt=""/>
                                                         <h3>Cardiopulmonary resuscitation</h3>
@@ -235,11 +245,11 @@
                         <div class="container content-flex">
                             
 
-                            <div class="content-border-wrap">
-                            <div class="content-rounded">
+                            <div class="content-border-wrap fadeInRight">
+                            <div class="content-rounded fadeInRight">
                                 <h6>Paramount Realism</h6>
                                 <hr class="faded-hr"/>
-                                <p class="margin-bottom-50">We used a real person’s MRI
+                                <p class="margin-bottom-80">We used a real person’s MRI
                                     images, consulted with
                                     independent specialist and
                                     clinics with HPS’S appearance
@@ -302,14 +312,25 @@
                     <div class="container">
                         <div class="mid-space"></div>
                         <div class="row gallery">
-                            <div class="col-md-3">
-                                <h3 class="section-title font-size-28">Innovations for life</h3>
-                                <p>Craft your own scenarios using our intuitive software or choose from many others, carefully created by our own simulation specialists.</p>
+                            <div class="col-md-12">
+                                <h3 class="section-title font-size-28">Imitation of different clinical scenarios</h3>
+                               
+                                <ul class="text-white">
+                                        <li>During Cardiac Complication: various pressure, heart rate , ECG rhythm and pulsation changes are all displayed on the bedside
+                                        monitor. </li>
+                                        <li>Respiratory complications: Changing BHD, capnogram, cyanosis, loss of consciousness, speech and various wheezing sounds. </li>
+                                                <li>Respiratory introduction and monitoring: Maintenance of anesthesia, various complications and critical situations, drug overdose,
+                                        inflammation, cessation of oxygen supply, failure of mechanical ventilation or NDA. </li>
+                                        <li>In case of head trauma: internal injuries of the torso and limbs with various physiological reactionssuch as lack of pupils response,
+                                        auscultatory pattern on left or right sides and pressure drop in case of blood loss. </li>
+                                </ul>
                             </div>
+                            <div class="col-md-1"></div>
                             <div class="col-md-3 wow fadeIn" data-wow-delay=".3s">
                                 <div class="image-holder">
                                    
                                         <img src="{{asset ('./img/gallery/gallery-interior1.jpg')}}" alt="">
+                                        <p>Lifelike face (optional)</p>
 
                                 </div>
                             </div>
@@ -317,7 +338,7 @@
                                 <div class="image-holder">
                                    
                                         <img src="{{asset ('./img/gallery/gallery-interior2.jpg')}}" alt="">
-                                     
+                                     <p>Dark skin (optional)</p>
                                    
                                 </div>
                             </div>
@@ -327,13 +348,14 @@
                                    
                                         <img src="{{asset ('./img/gallery/gallery-interior3.jpg')}}" alt="">
                                        
-                                   
+                                   <p>Various trauma modules (optional)</p>
                                 </div>
 
                                 <a href="{{asset ('./img/gallery/gallery-interior4.jpg')}}" class="image-link"></a>
                             </div>
+                            <div class="col-md-1"></div>
                         </div>
-                        <div class="mid-space"></div>
+                       
                     </div>
                 </div>
 
@@ -349,6 +371,47 @@
             </div>
 
         </section>
+
+
+
+        <!-- specs-area -->
+        <section class="light-section section-block">
+
+                <div class="section-space"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center section-title-wrapper">
+                            <h3 class="section-title">Key Features</h3>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <ul class="font-size-18">
+                            <li>Wireless/Tetherless connection and up to 9 hours of Battery Life</li>
+                                    <li>The most realistic face in the market</li>
+                                            <li>Excellent joint mobility with realistic weight and full of articulation of extremities</li>
+                                                    <li>Easy to clean/self sealing skin (perfect for moulage)</li>
+                                                            <li>CT scan based airway and Highly durable</li>
+                                                                    <li>Airway complications: tongue edema (2 levels), Tongue fallback, Pharyngeal obstruction, Laryngospasm)</li>
+                                                                            <li>Automatic blinking, depending on the physiological state of the patient: pupils reacting to light</li>
+                                                                                    <li>Use a live ECG monitor and a live defibrillator</li>
+                                                                                            <li>Use a real ventilator (VCV, PCV, assist-control, SIMV, CPAP, BiPAP). 20 cm PEEP H2O, ARDS settings, realistic
+                            compliance</li>
+                            <li>Drug recognition system and real pharmacological responses</li>
+                                    <li>Realistic chest compressions (over 1M compressions through just one torso skin)</li>
+                                            <li>High quality CPR (ready for AHA 2020 guidlines)</li>
+                                                    <li>Pulse synchronized with BP (14 pulses)</li>
+                                                            <li>Secretions (sweat, tears, nose, mouth, ears, urine)</li>
+                                                                    <li>Real-Time Tracking and analysis of CPR Performance</li>
+                        </ul>
+                    </div>             
+                </div>
+               
+    
+        </section>
+
+
+
 
 
         <div class="section-space"></div>

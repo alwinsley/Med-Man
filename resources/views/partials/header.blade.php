@@ -133,7 +133,7 @@
 
 
                                 <li><a href="about">About Us</a></li>
-                            <li><a href="manuals">Media</a></li>
+                            <li><a href="manuals">Support</a></li>
                             {{-- <li><a href="pages-about.html">Events</a></li> --}}
                             <li><a href="contact">Contact Us</a></li>
                         </ul>

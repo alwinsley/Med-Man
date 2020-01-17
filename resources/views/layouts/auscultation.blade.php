@@ -27,7 +27,7 @@
         </div>
 
         <!-- features-area -->
-        <section class="dark-section section-block">
+        <section class="bg-dark-grid section-block">
 
             <div class="section-space"></div>
             <div class="container">
@@ -37,7 +37,7 @@
                             
 
                                 {{-- <h2 class="section-title">Leonardo (HF).</h2> --}}
-                                <p><strong>Our auscultation simulator is a highly effective tool for learning auscultation points and sounds. A rich library of sounds with amplified details for trainees to know what they're looking for when listening to heart, bowel or lung sounds..</strong></p>
+                                <p class="text-white font-size-18">Our <strong>Auscultation</strong> simulator is a highly effective tool for learning auscultation points and sounds. A rich library of sounds with amplified details for trainees to know what they're looking for when listening to heart, bowel or lung sounds..</strong></p>
                                 <p>
                                   <ul class="text-white">
                                   <li>All the auscultation points light up</li>
@@ -56,7 +56,7 @@
                         <div class="features-entry margin-bottom-0 wow fadeInRight">
                             <div class="image-holder margin-bottom-0" style="border-radius:100%;">
 
-                                <img width="800" height="500" src="{{asset ('./img/post/post7.jpg')}}" alt="">
+                                <img width="800" height="500" src="{{asset ('./img/post/post88.jpg')}}" alt="">
                                
                                 <span class="project-overlay"></span>
                              
@@ -73,7 +73,7 @@
         <section class="white-section section-block">
 
             <div class="section-space"></div>
-            <div class="container">
+            <div>
                 <div class="row">
                     <div class="col-md-12 text-center section-title-wrapper">
                         <h3 class="section-title">Features</h3>
@@ -92,11 +92,11 @@
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane active" id="feature">
                                     <div class="car-interest">
-                                        <div class="car-interest-wrapper">
-                                            <img src="{{asset ('./img/models/exteriorAus.png')}}" alt="Model 1">
+                                        <div class="car-interest-wrapper-full">
+                                            <img src="{{asset ('./img/aus.jpg')}}" alt="Model 1">
                                             <ul>
                                                 <li class="interest-point" style="bottom: 50%;left: 52%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                     <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-top">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxAus.jpg')}}" alt=""/>
                                                         <h3>Real stethoscope</h3>
@@ -111,8 +111,8 @@
                                                     </div>
                                                 </li> 
 
-                                                <li class="interest-point" style="top: 82%; left: 18%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                <li class="interest-point" style="top: 72%; left: 48%;">
+                                                     <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-right">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxAus2.jpg')}}" alt=""/>
                                                         <h3>Real stethoscope</h3>
@@ -219,10 +219,11 @@
                     <div class="container">
                         <div class="mid-space"></div>
                         <div class="row gallery">
-                            <div class="col-md-3">
+                            <div class="col-md-12">
                                 <h3 class="section-title font-size-28">Innovations for life</h3>
-                                <p>Easy, intuitive, elaborate are the main principles here. Rich library of sounds, conforming to American Thoracic Society guidelines. Activate or deactivate auscultation points and backlighting individually, adjust volume and intensity of sounds and many other features.</p>
+                                <p>Easy, intuitive, elaborate are the main principles here. Rich library of sounds, conforming to American Thoracic Society guidelines. Activate or deactivate auscultation points and backlighting individually, adjust volume and intensity of sounds and many other features.</p><br/>
                             </div>
+                            <div class="col-md-1"></div>
                             <div class="col-md-3 wow fadeIn" data-wow-delay=".3s">
                                 <div class="image-holder">
                                    
@@ -254,13 +255,13 @@
                     </div>
                 </div>
 
-                <div class="car-interest">
+                {{-- <div class="car-interest">
                     <div class="car-interest-wrapper">
                         <div class="interior-bg" style="background-image: url('{{asset ('./img/gallery/interior-coverAus.jpg')}}');"></div>
                         <img src="{{asset ('./img/gallery/interior-spacing.png')}}" alt="Interior">
                        
                     </div>
-                </div>
+                </div> --}}
 
             </div>
 

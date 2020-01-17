@@ -13,8 +13,7 @@
                         <div class="page-title-inner">
                             <div class="page-title-content">
                                 <h1>ARTHUR</h1>
-                                <p>Bringing pediatric patient care
-                                        to a whole new level</p>
+                                <p>Human child simulator</p>
 
                               
 
@@ -28,7 +27,7 @@
         </div>
 
         <!-- features-area -->
-        <section class="dark-section section-block">
+        <section class="bg-dark-grid section-block">
 
             <div class="section-space"></div>
             <div class="container">
@@ -38,16 +37,30 @@
                             
 
                                 {{-- <h2 class="section-title">Leonardo (HF).</h2> --}}
-                                <p><strong>Arthur. Essential is a 5-8 year old pediatric patient simulator developed and produced by Medvision, created, to bring pediatric patient care to a whole new level. We took the best from our LEONARDO simulator and carefully carried it to Arthur, resulting in Arthur’s conformity to all pediatric care requirements and standards.</strong></p>
+                                <p class="text-white font-size-18"><strong>Arthur</strong> is our pediatric patient simulator developed
+                                        and created to bring pediatric patient care to a whole new level.
+                                        We took the best from our LEONARDO simulator and carefully
+                                        carried it to Junior, resulting in a unique conformity to all
+                                        pediatric care requirements and standards.</p>
+                                        <h2 class="text-white"><strong>Develop Major Medical Skills:</strong></h2>
                                 <p>
-                                  <ul class="text-white">
-                                  <li>Interactive eyes & Realistic airways</li>
-                                  <li>Real medical ventilator compatibility</li>
-                                      <li> Real devices for ECG and pulse monitoring, defibrillation, noninvasive BP monitoring</li>
-                                      <li> Cricothyrotomy, needle decompression of tension pneumothorax</li>
-                                       <li>CPR with elaborate performance assessment</li>
-                                       
-                                  </ul>
+                                        <ul class="text-white">
+                                                <li>Perform CPR in accordance with 2010-2015 AHA/ERC
+                                                        Guidelines for CPR and defibrillation with or without use of
+                                                        acute care medications and a real defibrillator.</li>
+                                                <li>Perform normal intubation procedures with/without complications
+                                                        such as tongue swelling, laryngeal edema, laryngospasm,
+                                                        left/rightbronchi obstruction and lockjaw.</li>
+                                                <li>Perform pleural cavity drainage, urethral catheterization and
+                                                        decompression of tension pneumothorax.</li>
+                                                <li>Perform intramuscular, intraosseous and intravenous injections
+                                                        with selection of administered medicine and dose amount
+                                                        given with automatic software recognition.</li>
+                                                <li>Perform cricoid pressure technique (Sellick’s Maneuver.)</li>
+                                                        <li>Ausculation and interpretation of heart, lungs and bowel
+                                                                sounds with Korotkoff tones, which require correct instrument
+                                                                positioning.</li>
+                                        </ul>
                                   </p>
 
                             
@@ -57,7 +70,7 @@
                         <div class="features-entry margin-bottom-0 wow fadeInRight">
                             <div class="image-holder margin-bottom-0" style="border-radius:100%;">
 
-                                <img width="800" height="500" src="{{asset ('./img/post/post5.jpg')}}" alt="">
+                                <img width="800" height="500" src="{{asset ('./img/post/post55.jpg')}}" alt="">
                                
                                 <span class="project-overlay"></span>
                              
@@ -71,10 +84,10 @@
         </section>
 
         <!-- exterior-area -->
-        <section class="white-section section-block">
+        <section class="padding-bottom-100">
 
             <div class="section-space"></div>
-            <div class="container">
+            <div>
                 <div class="row">
                     <div class="col-md-12 text-center section-title-wrapper">
                         <h3 class="section-title">Features</h3>
@@ -93,11 +106,11 @@
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane active" id="feature">
                                     <div class="car-interest">
-                                        <div class="car-interest-wrapper">
-                                            <img src="{{asset ('./img/models/exteriorJunior.png')}}" alt="Model 1">
+                                        <div class="car-interest-wrapper-full">
+                                            <img src="{{asset ('./img/models/arthur.jpg')}}" alt="Model 1">
                                             <ul>
                                                 <li class="interest-point" style="bottom: 20%;left: 72%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                        <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-top">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxJunior.jpg')}}" alt=""/>
                                                         <h3>Basic physical examination</h3>
@@ -113,7 +126,7 @@
                                                 </li> 
 
                                                 <li class="interest-point" style="top: 52%; left: 28%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                     <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-right">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxJunior2.jpg')}}" alt=""/>
                                                         <h3>Orotracheal intubation</h3>
@@ -127,7 +140,7 @@
                                                 </li> 
 
                                                 <li class="interest-point" style="top: 58%;right: 41%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                     <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-left">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxJunior3.jpg')}}" alt=""/>
                                                         <h3>Injections</h3>
@@ -232,11 +245,18 @@
                     <div class="container">
                         <div class="mid-space"></div>
                         <div class="row gallery">
-                            <div class="col-md-3">
-                                <h3 class="section-title font-size-28">Innovations for life</h3>
-                                <p>Authur will assess all of your actions during resuscitation and then provide detailed feedback.
-                                        Powerful and intuitive, a perfect symbiosis of hardware and software: access our ever-expanding library of clinical cases or create your own.</p>
+                            <div class="col-md-12">
+                                <h3 class="section-title font-size-28">Development of Clinical Judgment</h3>
+                                <ul class="text-white">
+                                <li>Addressing the complications in patient health caused by mecachical ventilation malfunction</li>
+                                        <li>Performing emergency assistance in case of airway obstruction and/or closure caused by allergic reactions,
+                                tongueswelling, or foreing object.</li>
+                                <li>Peforming emergency first aid in various critical situations: drug overdose, anaphylactic shock, hyperkalemia,
+                                etc.</li>
+                                <li>Adressing unforeseen complications in patient health caused by unknown circumastances.</li>
+                                </ul>
                             </div>
+                            <div class="col-md-1"></div>
                             <div class="col-md-3 wow fadeIn" data-wow-delay=".3s">
                                 <div class="image-holder">
                                    
@@ -268,17 +288,54 @@
                     </div>
                 </div>
 
-                <div class="car-interest">
+                {{-- <div class="car-interest">
                     <div class="car-interest-wrapper">
                         <div class="interior-bg" style="background-image: url('{{asset ('./img/gallery/interior-coverJunior.jpg')}}');"></div>
                         <img src="{{asset ('./img/gallery/interior-spacing.png')}}" alt="Interior">
                        
                     </div>
-                </div>
+                </div> --}}
 
             </div>
 
         </section>
+
+
+        <section class="light-section section-block">
+
+                <div class="section-space"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center section-title-wrapper">
+                            <h3 class="section-title">Key Features</h3>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <ul class="font-size-18">
+                            <li>Realistic face</li>
+                                    <li>Wireless/Tetherless connection and up to 8 hours of Battery Life</li>
+                                            <li>Excellent joint mobility with realistic weight and full articulation of extremities</li>
+                                                    <li>Easy to clean/self sealing skin (perfect for moulage)</li>
+                                                            <li>CT scan based airway and Highly durable</li>
+                                                                    <li>Airway complications: tongue edema (2 levels), Tongue fallback, Pharyngeal obstruction, Laryngospasm)</li>
+                                                                            <li>Highly durable airway</li>
+                                                                                    <li>Use a live ECG monitor and a live defibrillator</li>
+                                                                                            <li>VCV,PCV, assist-control, SIMV,CPAP,BiPAP) holds PEEP up to 20 cm H2O, ARDS settings, realistic compliance</li>
+                            <li>Drug recognition system and real pharmacological responses</li>
+                                    <li>Realistic chest compressions (over 1M compressions through just one torso skin)</li>
+                                            <li>Pulse synchronization with BP (carotid, brachial, femoral)</li>
+                                                    
+                                                                    <li>Real-Time Tracking and analysis of CPR Performance</li>
+                        </ul>
+                    </div>             
+                </div>
+               
+    
+        </section>
+
+
+
         <div class="section-space"></div>
         <section class="page-title-wrapper">
             <div class="section-bg-bottom" style="background-image: url({{url('./img/slider/sliderJunior.jpg')}}); background-position: 10% 71px;">

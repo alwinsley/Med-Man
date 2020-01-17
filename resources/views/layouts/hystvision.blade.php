@@ -96,7 +96,7 @@
                                             <img src="{{asset ('./img/models/exteriorHyst.png')}}" alt="Model 1">
                                             <ul>
                                                 <li class="interest-point" style="bottom: 24%;left: 72%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                     <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-top">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxHyst.jpg')}}" alt=""/>
                                                         <h3>Vital signs</h3>
@@ -112,7 +112,7 @@
                                                 </li> 
 
                                                 <li class="interest-point" style="top: 32%; left: 18%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                     <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-right">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxHyst2.jpg')}}" alt=""/>
                                                         <h3>Intubation</h3>
@@ -127,7 +127,7 @@
                                                 </li> 
 
                                                 <li class="interest-point" style="top: 38%;right: 61%;">
-                                                    <a class="car-img-replace" href="#0">More</a>
+                                                     <a class="car-img-replace" href="#0"><i class="fa fa-search text-white"></i></a>
                                                     <div class="car-more-info car-left">
                                                         <img class="car-more-image" src="{{asset ('./img/box/boxHyst3.jpg')}}" alt=""/>
                                                         <h3>Cardiopulmonary resuscitation</h3>
