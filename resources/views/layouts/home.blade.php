@@ -22,17 +22,20 @@
                      
                        
                         <div class="image-holder">
-                                <div class="section-bg-bottom"
+                                {{-- <div class="section-bg-bottom"
                                 style="background-image: url({{asset ('./img/gallery/gallery-interior12.jpg')}});background-size: contain; border-radius:100%; opacity:1;padding: 300px;">
-                            </div>
+                            </div> --}}
                             <a href="products">
                                    
-                                {{-- <img src="{{asset ('./img/gallery/gallery-interior1.jpg')}}" alt=""> --}}
-                                <div class="car-overlay">
-                                    {{-- <span class="link-holder" style="top:300px">
-                                            <span type="" class="button">View</span>
-                                    </span> --}}
-                                </div>
+                                    <div class="features-entry margin-bottom-0 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                                            <div class="image-holder margin-bottom-0" style="border-radius:100%;">
+                
+                                                <img width="800" height="500" src="{{asset ('./img/post/post66.jpg')}}" alt="">
+                                               
+                                                <span class="project-overlay"></span>
+                                             
+                                            </div>
+                                        </div>
                             </a>
                         </div>
                         
@@ -120,7 +123,7 @@
                         <p class="txt-grey">We provide instrument imitations for every instrument manufacturer brand out there, available by special order.</p>
                     </div>
                     <div class="margin-top-60">
-                    <img src="{{asset ('./img/slider/sliderLap.jpg')}}" alt="">
+                            <a href="products"> <img src="{{asset ('./img/slider/sliderLap.jpg')}}" alt=""></a>
                     </div>
                 </div>
         </div>

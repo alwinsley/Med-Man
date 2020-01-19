@@ -304,11 +304,11 @@
 
 
         <!-- interior-area -->
-        <section class="dark-section"> 
+        <section class="bg-dark-grid"> 
 
             <div class="interior-container">
 
-                <div class="section-title-wrapper">
+                <div class="section-title-wrapper" style="background:none">
                     <div class="container">
                         <div class="mid-space"></div>
                         <div class="row gallery">
@@ -330,7 +330,7 @@
                                 <div class="image-holder">
                                    
                                         <img src="{{asset ('./img/gallery/gallery-interior1.jpg')}}" alt="">
-                                        <p>Lifelike face (optional)</p>
+                                        <p class="text-white">Lifelike face (optional)</p>
 
                                 </div>
                             </div>
@@ -338,7 +338,7 @@
                                 <div class="image-holder">
                                    
                                         <img src="{{asset ('./img/gallery/gallery-interior2.jpg')}}" alt="">
-                                     <p>Dark skin (optional)</p>
+                                     <p class="text-white">Dark skin (optional)</p>
                                    
                                 </div>
                             </div>
@@ -348,7 +348,7 @@
                                    
                                         <img src="{{asset ('./img/gallery/gallery-interior3.jpg')}}" alt="">
                                        
-                                   <p>Various trauma modules (optional)</p>
+                                   <p class="text-white">Various trauma modules (optional)</p>
                                 </div>
 
                                 <a href="{{asset ('./img/gallery/gallery-interior4.jpg')}}" class="image-link"></a>
@@ -376,6 +376,8 @@
 
         <!-- specs-area -->
         <section class="light-section section-block">
+            <div class="section-bg-bottom" style="background-image: url({{url('./img/slider/sliderLeo.jpg')}}); background-position: 50% -102px;">
+            </div>
 
                 <div class="section-space"></div>
                 <div class="container">

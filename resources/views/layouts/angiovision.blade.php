@@ -37,16 +37,9 @@
                             
 
                                 {{-- <h2 class="section-title">Leonardo (HF).</h2> --}}
-                                <p><strong>Leonardo HF is a Human Patient Simulator of a male adult. Created in order to solve most diﬃcult tasks in specialist training: vital signs, realistic feel and feedback, increased durability are only a few of his many traits.</strong></p>
+                                <p><strong>Highly realistic and detailed anatomy. Simulated physics, haptic feedback, and radiocontrast agent spreading. Fundamentals and advanced training for mastering new skills or improving existing ones.</strong></p>
                                 <p>
-                                  <ul class="text-white">
-                                  <li>tetherless connection (with up to 8 hours of battery life)</li>
-                                  <li>rechargeable, swappable battery</li>
-                                      <li> smart accessories</li>
-                                      <li> a steady supply of durable consumables</li>
-                                       <li>realistic, seamless skin, easy to clean and with no protruding parts</li>
-                                       <li> increased durability, reliable construction</li>
-                                  </ul>
+                                    Our proprietary software provides an ever-growing module library with constant updates for new methodologies and modules, different types of angiographic images: positive, negative, 3D mode, fluoroscopy, cineangiography and DSA for roadmapping. Completed with real instruments, this all creates a comprehensive state-of-the-art training machine.
                                   </p>
 
                             
@@ -305,15 +298,15 @@
             </div>
         </section>
 
-        <!-- specs-area -->
-        {{-- <section class="light-section section-block">
+       <!-- specs-area -->
+       <section class="light-section section-block">
 
             <div class="section-space"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center section-title-wrapper">
-                        <h3 class="section-title">Features</h3>
-                        <p>Key features</p>
+                        <h3 class="section-title">Library of Modules</h3>
+                        <p>Basic skills</p>
                     </div>
                 </div>
                 <div class="row">
@@ -323,21 +316,16 @@
                                 <thead>
                                     <tr>
                                         <th>
-                                            <h4>High Fidelity</h4>
+                                            <h4>Suturing, knot tying, moving objects and accurate yet smooth movements training</h4>
                                         </th>
-                                        <th>
-                                            <h5>Essential</h5>
-                                        </th>
-                                        <th>
-                                            <h5>Diesel Engine XDI 160 (115hp)</h5>
-                                        </th>
+                                       
                                     </tr>
                                 </thead>
                             </table>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" id="Engine" role="tab">
-                            <h4 class="panel-title"><a aria-controls="collapseOne_reg" aria-expanded="false" class="collapsed" data-parent="#accordion_reg" data-toggle="collapse" href="#Engine-view" role="button">Engine Specifications</a></h4></div>
+                            <h4 class="panel-title"><a aria-controls="collapseOne_reg" aria-expanded="false" class="collapsed" data-parent="#accordion_reg" data-toggle="collapse" href="#Engine-view" role="button">Balloon angioplasty and stenting</a></h4></div>
                             <div aria-labelledby="Engine" class="panel-collapse collapse" id="Engine-view" role="tabpanel" aria-expanded="false" style="height: 0px;">
                                 <table class="specs-table">
                                     <colgroup>
@@ -346,195 +334,47 @@
                                         <col style="display: table-column;">
                                     </colgroup>
                                     <tbody>                                       
-                                        <tr class="multi-child">
-                                            <td>Engine Description</td>
-                                            <td >
-                                                <p>
-                                                    Four-cylinder twin turbo-charged diesel engine
-                                                </p>
-                                            </td>
-                                            <td >
-                                                <p>
-                                                    Four-cylinder twin turbo-charged diesel engine
-                                                </p>
-                                            </td>
-                                           
-                                        </tr>
+                                       <div class="container margin-20 content-center">
+                                           <div class="row">
+                                               
+                                               <div class="col-lg-2">
+                                                    <img src="{{asset ('./img/modules/angio/img1.jpg')}}" alt="">
+                                                    <p>Carotid stenting</p>
 
-                                        <tr class="multi-child">
-                                            <td>Drivetrain</td>
-                                            <td >
-                                                <p>
-                                                    All wheel drive
-                                                </p>
-                                            </td>
-                                            <td >
-                                                <p>
-                                                    All wheel drive
-                                                </p>
-                                            </td>
-                                          
-                                        </tr>
+                                               </div>
+                                               <div class="col-lg-2">
+                                                    <img src="{{asset ('./img/modules/angio/img2.jpg')}}" alt="">
+                                                    <p> Renal stenting</p>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                        <img src="{{asset ('./img/modules/angio/img3.jpg')}}" alt="">
+                                                        <p> Coronary stenting</p>
+                                                    </div>
+                                                    <div class="col-lg-2">
+                                                            <img src="{{asset ('./img/modules/angio/img4.jpg')}}" alt="">
+                                                            <p> Iliac stenting</p>
 
-                                        <tr class="multi-child">
-                                            <td>Number of Cylinders</td>
-                                            <td >
-                                                <p>
-                                                    4
-                                                </p>
-                                            </td>
-                                            <td >
-                                                <p>
-                                                    4
-                                                </p>
-                                            </td>
-                                           
-                                        </tr>
+                                                        </div>
+                                                        <div class="col-lg-2">
+                                                                <img src="{{asset ('./img/modules/angio/img5.jpg')}}" alt="">
+                                                                <p>SFA stenting</p>
 
-                                        <tr class="multi-child">
-                                            <td>Engine Displacement</td>
-                                            <td >
-                                                <p>
-                                                    1969 cc
-                                                </p>
-                                            </td>
-                                            <td >
-                                                <p>
-                                                    1969 cc
-                                                </p>
-                                            </td>
-                                           
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Engine Bore</td>
-                                            <td >
-                                                <p>
-                                                    82 mm
-                                                </p>
-                                            </td>
-                                            <td >
-                                                <p>
-                                                    82 mm
-                                                </p>
-                                            </td>
-                                          
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Engine Stroke</td>
-                                            <td >
-                                                <p>
-                                                    93.2 mm
-                                                </p>
-                                            </td>
-                                            <td >
-                                                <p>
-                                                    93.2 mm
-                                                </p>
-                                            </td>
-                                           
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Max Engine Power (kW)</td>
-                                            <td >
-                                                <p>
-                                                    165 kW
-                                                </p>
-                                            </td>
-                                            <td >
-                                                <p>
-                                                    165 kW
-                                                </p>
-                                            </td>
-                                           
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Horsepower</td>
-                                            <td >
-                                                <p>
-                                                    225 hp
-                                                </p>
-                                            </td>
-                                            <td >
-                                                <p>
-                                                    225 hp
-                                                </p>
-                                            </td>
-                                           
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Rev at max engine power</td>
-                                            <td >
-                                                <p>
-                                                    4250 rpm
-                                                </p>
-                                            </td>
-                                            <td >
-                                                <p>
-                                                    4250 rpm
-                                                </p>
-                                            </td>
-                                           
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Torque</td>
-                                            <td>
-                                                <p>
-                                                    470 Nm
-                                                </p>
-                                            </td>
-                                            <td >
-                                                <p>
-                                                    470 Nm
-                                                </p>
-                                            </td>
-                                           
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Rev at max engine torque</td>
-                                            <td >
-                                                <p>
-                                                    1750 - 2500 rpm
-                                                </p>
-                                            </td>
-                                            <td >
-                                                <p>
-                                                    1750 - 2500 rpm
-                                                </p>
-                                            </td>
-                                     
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Fuel type</td>
-                                            <td >
-                                                <p>
-                                                    Petrol
-                                                </p>
-                                            </td>
-                                            <td >
-                                                <p>
-                                                    Diesel
-                                                </p>
-                                            </td>
-                                          
-                                        </tr>
-
-
-
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                    <img src="{{asset ('./img/modules/angio/img6.jpg')}}" alt="">
+                                                                    <p> Below-the-knee stenting</p>
+    
+                                                                </div>
+                                                            
+                                           </div>
+                                       </div>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" id="Dimensions" role="tab">
-                                <h4 class="panel-title"><a aria-controls="collapseOne_reg" aria-expanded="false" class="collapsed" data-parent="#accordion_reg" data-toggle="collapse" href="#Dimensions-view" role="button">Dimensions</a></h4>
+                                <h4 class="panel-title"><a aria-controls="collapseOne_reg" aria-expanded="false" class="collapsed" data-parent="#accordion_reg" data-toggle="collapse" href="#Dimensions-view" role="button">Intracranial stenting & Aortic aneurysm repair</a></h4>
                             </div>
                             <div aria-labelledby="Dimensions" class="panel-collapse collapse" id="Dimensions-view" role="tabpanel" aria-expanded="false" style="height: 0px;">
                                 <table class="specs-table">
@@ -544,196 +384,43 @@
                                         <col style="display: table-column;">
                                     </colgroup>
                                     <tbody>
-                                        
-                                        <tr class="multi-child">
-                                            <td>Engine Description</td>
-                                            <td>
-                                                <p>
-                                                    Four-cylinder twin turbo-charged diesel engine
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    Four-cylinder twin turbo-charged diesel engine
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Drivetrain</td>
-                                            <td>
-                                                <p>
-                                                    All wheel drive
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    All wheel drive
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Number of Cylinders</td>
-                                            <td>
-                                                <p>
-                                                    4
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    4
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Engine Displacement</td>
-                                            <td>
-                                                <p>
-                                                    1969 cc
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    1969 cc
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Engine Bore</td>
-                                            <td>
-                                                <p>
-                                                    82 mm
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    82 mm
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Engine Stroke</td>
-                                            <td>
-                                                <p>
-                                                    93.2 mm
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    93.2 mm
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Max Engine Power (kW)</td>
-                                            <td>
-                                                <p>
-                                                    165 kW
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    165 kW
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Horsepower</td>
-                                            <td>
-                                                <p>
-                                                    225 hp
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    225 hp
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Rev at max engine power</td>
-                                            <td>
-                                                <p>
-                                                    4250 rpm
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    4250 rpm
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Torque</td>
-                                            <td>
-                                                <p>
-                                                    470 Nm
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    470 Nm
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Rev at max engine torque</td>
-                                            <td>
-                                                <p>
-                                                    1750 - 2500 rpm
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    1750 - 2500 rpm
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Fuel type</td>
-                                            <td>
-                                                <p>
-                                                    Petrol
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    Diesel
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-
-
+                                            <div class="container margin-20 content-center">
+                                                    <div class="row">
+                                                            <div class="col-lg-1">
+                                                                </div>
+                                                        <div class="col-lg-2">
+                                                             <img src="{{asset ('./img/modules/angio/img7.jpg')}}" alt="">
+                                                             <p>Intracranial aneurysm embolization</p>
+         
+                                                        </div>
+                                                        <div class="col-lg-2">
+                                                             <img src="{{asset ('./img/modules/angio/img8.jpg')}}" alt="">
+                                                             <p>Cerebral stenting</p>
+                                                         </div>
+                                                         <div class="col-lg-2">
+                                                                 <img src="{{asset ('./img/modules/angio/img9.jpg')}}" alt="">
+                                                                 <p>Ischemic stroke</p>
+                                                             </div>
+                                                             <div class="col-lg-2">
+                                                                     <img src="{{asset ('./img/modules/angio/img10.jpg')}}" alt="">
+                                                                     <p>Endovascular aneurysm repair</p>
+                                                                 </div>
+                                                                 <div class="col-lg-2">
+                                                                         <img src="{{asset ('./img/modules/angio/img11.jpg')}}" alt="">
+                                                                         <p>Thoracic endovascular aneurysm repair</p>
+         
+                                                                     </div>
+                                                                     <div class="col-lg-1">
+                                                                        </div>
+                                                    </div>
+                                                </div>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" id="Weight" role="tab">
-                                <h4 class="panel-title"><a aria-controls="collapseOne_reg" aria-expanded="false" class="collapsed" data-parent="#accordion_reg" data-toggle="collapse" href="#Weight-view" role="button">Weight</a></h4>
+                                <h4 class="panel-title"><a aria-controls="collapseOne_reg" aria-expanded="false" class="collapsed" data-parent="#accordion_reg" data-toggle="collapse" href="#Weight-view" role="button">Basic course</a></h4>
                             </div>
                             <div aria-labelledby="Weight" class="panel-collapse collapse" id="Weight-view" role="tabpanel" aria-expanded="false" style="height: 0px;">
                                 <table class="specs-table">
@@ -744,193 +431,95 @@
                                     </colgroup>
                                     <tbody>
 
-                                        <tr class="multi-child">
-                                            <td>Engine Description</td>
-                                            <td>
-                                                <p>
-                                                    Four-cylinder twin turbo-charged diesel engine
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    Four-cylinder twin turbo-charged diesel engine
-                                                </p>
-                                            </td>
+                                            <div class="container margin-20 content-center">
+                                                    <div class="row">
+                                                            <div class="col-lg-1">
+                                                            </div>
+                                                        <div class="col-lg-2">
+                                                             <img src="{{asset ('./img/modules/angio/img12.jpg')}}" alt="">
+                                                          <p>Appendectomy</p>
+         
+                                                        </div>
+                                                        <div class="col-lg-2">
+                                                                <img src="{{asset ('./img/modules/angio/img13.jpg')}}" alt="">
+                                                                <p>Anastomosis</p>
+                                                         </div>
+                                                         <div class="col-lg-2">
+                                                                <img src="{{asset ('./img/modules/angio/img14.jpg')}}" alt="">
+                                                                <p>Sigmoid colon resection</p>
+                                                             </div>
+                                                             <div class="col-lg-2">
+                                                                    <img src="{{asset ('./img/modules/angio/img15.jpg')}}" alt="">
+                                                                    <p>Splenectomy</p>
+                                                                 </div>
+                                                                 <div class="col-lg-2">
+                                                                        <img src="{{asset ('./img/modules/angio/img16.jpg')}}" alt="">
+                                                                        <p>Hernioplasty</p>
+                                                                     </div>
+                                                                     <div class="col-lg-1">
+                                                                        </div>
+                                                    </div>
 
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Drivetrain</td>
-                                            <td>
-                                                <p>
-                                                    All wheel drive
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    All wheel drive
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Number of Cylinders</td>
-                                            <td>
-                                                <p>
-                                                    4
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    4
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Engine Displacement</td>
-                                            <td>
-                                                <p>
-                                                    1969 cc
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    1969 cc
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Engine Bore</td>
-                                            <td>
-                                                <p>
-                                                    82 mm
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    82 mm
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Engine Stroke</td>
-                                            <td>
-                                                <p>
-                                                    93.2 mm
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    93.2 mm
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Max Engine Power (kW)</td>
-                                            <td>
-                                                <p>
-                                                    165 kW
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    165 kW
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Horsepower</td>
-                                            <td>
-                                                <p>
-                                                    225 hp
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    225 hp
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Rev at max engine power</td>
-                                            <td>
-                                                <p>
-                                                    4250 rpm
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    4250 rpm
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Torque</td>
-                                            <td>
-                                                <p>
-                                                    470 Nm
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    470 Nm
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Rev at max engine torque</td>
-                                            <td>
-                                                <p>
-                                                    1750 - 2500 rpm
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    1750 - 2500 rpm
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-                                        <tr class="multi-child">
-                                            <td>Fuel type</td>
-                                            <td>
-                                                <p>
-                                                    Petrol
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>
-                                                    Diesel
-                                                </p>
-                                            </td>
-
-                                        </tr>
-
-
-
+                                                    <div class="row">
+                                                            <div class="col-lg-1">
+                                                                </div>
+                                                            <div class="col-lg-2">
+                                                                 <img src="{{asset ('./img/modules/angio/img17.jpg')}}" alt="">
+                                                              <p>Salpingo oophorectomy</p>
+             
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                    <img src="{{asset ('./img/modules/angio/img17(1).jpg')}}" alt="">
+                                                                    <p>Tubal ligation</p>
+                                                             </div>
+                                                             <div class="col-lg-2">
+                                                                    <img src="{{asset ('./img/modules/angio/img18.jpg')}}" alt="">
+                                                                    <p>Ectopic Pregnancy-Salpingostomy</p>
+                                                                 </div>
+                                                                 <div class="col-lg-2">
+                                                                        <img src="{{asset ('./img/modules/angio/img18(1).jpg')}}" alt="">
+                                                                        <p>Total hysterectomy</p>
+                                                                     </div>
+                                                                     <div class="col-lg-2">
+                                                                            <img src="{{asset ('./img/modules/angio/img19.jpg')}}" alt="">
+                                                                            <p>Prophylactic oophorectomy</p>
+                                                                         </div>
+                                                                         <div class="col-lg-1">
+                                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                                <div class="col-lg-1">
+                                                                    </div>
+                                                                <div class="col-lg-2">
+                                                                     <img src="{{asset ('./img/modules/11.jpg')}}" alt="">
+                                                                  <p>Full procedure of laparoscopic chole</p>
+                 
+                                                                </div>
+                                                                <div class="col-lg-2">
+                                                                        <img src="{{asset ('./img/modules/12.jpg')}}" alt="">
+                                                                        <p>Important skills in laparoscopic chole</p>
+                                                                 </div>
+                                                                 <div class="col-lg-2">
+                                                                        <img src="{{asset ('./img/modules/13.jpg')}}" alt="">
+                                                                        <p>Nephrectomy</p>
+                                                                     </div>
+                                                                     <div class="col-lg-2">
+                                                                            <img src="{{asset ('./img/modules/14.jpg')}}" alt="">
+                                                                            <p>Adhesive small bowel obstruction</p>
+                                                                         </div>
+                                                                         <div class="col-lg-2">
+                                                                                <img src="{{asset ('./img/modules/15.jpg')}}" alt="">
+                                                                                <p>Diagnostic laparoscopy</p>
+                                                                             </div>
+                                                                             <div class="col-lg-1">
+                                                                                </div>
+                                                            </div>
+                                                </div>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-                        <div class="panel panel-default">
+                        {{-- <div class="panel panel-default">
                             <div class="panel-heading" id="Performance" role="tab">
                                 <h4 class="panel-title"><a aria-controls="collapseOne_reg" aria-expanded="false" class="collapsed" data-parent="#accordion_reg" data-toggle="collapse" href="#Performance-view" role="button">Performance</a></h4>
                             </div>
@@ -1128,13 +717,13 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>               
                 </div>             
             </div>
             <div class="section-space"></div>
 
-        </section> --}}
+        </section>
 
 
 

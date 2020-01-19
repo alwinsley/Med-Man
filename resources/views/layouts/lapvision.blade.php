@@ -37,15 +37,13 @@
                             
 
                                 {{-- <h2 class="section-title">Leonardo (HF).</h2> --}}
-                                <p><strong>Leonardo HF is a Human Patient Simulator of a male adult. Created in order to solve most diﬃcult tasks in specialist training: vital signs, realistic feel and feedback, increased durability are only a few of his many traits.</strong></p>
+                                <p><strong>Our proprietary magnetic feedback system allows for unprecedented immersion. Furthermore, unlike mechanical feedback systems, it is far more reliable.</strong></p>
                                 <p>
                                   <ul class="text-white">
-                                  <li>tetherless connection (with up to 8 hours of battery life)</li>
-                                  <li>rechargeable, swappable battery</li>
-                                      <li> smart accessories</li>
-                                      <li> a steady supply of durable consumables</li>
-                                       <li>realistic, seamless skin, easy to clean and with no protruding parts</li>
-                                       <li> increased durability, reliable construction</li>
+                                    <li>Wireless instruments can be pulled out from the ports for maximum realism</li>
+                                        <li> Modeled after real instruments</li>
+                                            <li> Effortless tool selection and swap</li>
+                                                <li>Freeze function for all instruments if you want to train using one hand only</li>
                                   </ul>
                                   </p>
 

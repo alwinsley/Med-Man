@@ -6,7 +6,7 @@
         
         <!-- model-area -->
         <div class="page-title-wrapper">
-            <div class="section-bg" style="background-image: url({{url('./img/slider/slider-model.jpg')}});"></div>
+            <div class="section-bg" style="background-image: url({{url('./img/slider/sliderMiaDark.jpg')}});"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
@@ -221,11 +221,11 @@
         </section>
 
         <!-- interior-area -->
-        <section class="dark-section"> 
+        <section class="bg-dark-grid"> 
 
             <div class="interior-container">
 
-                <div class="section-title-wrapper">
+                    <div class="section-title-wrapper" style="background:none">
                     <div class="container">
                         <div class="mid-space"></div>
                         <div class="row gallery">
